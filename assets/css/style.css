@@ -1,0 +1,13 @@
+@import url('https://fonts.googleapis.com/css?family=Oxygen&display=swap|Oswald');
+
+h1 {
+    color: red;
+    font-family: "Oxygen", sans-serif;
+    font-weight: bolder;
+}
+
+h2 {
+    color: blue;
+    font-family: "Oswald", sans-serif;
+    font-weight: lighter;
+}
