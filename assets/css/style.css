@@ -1,9 +1,12 @@
 @import url('https://fonts.googleapis.com/css?family=Oxygen&display=swap|Oswald');
 
-h1 {
+/* ---------------------------------------------Logo-------- */
+.logo {
     color: red;
     font-family: "Oxygen", sans-serif;
+    font-size: 50px;
     font-weight: bolder;
+    letter-spacing: 6px;
 }
 
 h2 {
