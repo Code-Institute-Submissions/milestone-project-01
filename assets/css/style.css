@@ -76,11 +76,7 @@
 /* ---------------------------------------------Homepage Images-------- */
 
 .image-1 {
-    background-image: url("../images/chase-wilson-Rp5A-XUb0nE-unsplash.jpg");
-    /* background-repeat: none;
-    background-size: 100%;
-    background-clip: padding-box;
-    background-position: center; */
+    background-color: #0e0fed;
 }
 
 .image-2 {
@@ -92,7 +88,7 @@
 }
 
 .image-3 {
-    background-image: url("../images/chase-wilson-Rp5A-XUb0nE-unsplash.jpg");
+    background-image: url("../images/brooke-lark-KyUmKlXrhAM-unsplash.jpg");
     /* background-repeat: none;
     background-size: 100%;
     background-clip: padding-box;
@@ -119,6 +115,10 @@
     color: #ffffff;
 }
 
+.join-contact {
+    background-color: #ffdc6a;
+}
+
 /* ---------------------------------------------Join Page Images-------- */
 
 .join-image-1 {
@@ -129,7 +129,24 @@
     background-image: url("../images/rhondak-native-florida-folk-artist-_Yc7OtfFn-0-unsplash.jpg")
 }
 
-.join-contact {
-    background-image: url("../images/rdisruptivo-iQ15DTx-63k-unsplash.jpg")
+/* ---------------------------------------------Members Page-------- */
+
+.members-intro {
+    font-family: "Oswald", sans-serif;
+    color:#ffffff;
+    background-image: url("../images/dylan-gillis-KdeqA3aTnBY-unsplash.jpg")
+
+}
+
+.members-availability {
+    background-color: #94f0f1;
+    font-family: "Oswald", sans-serif;
+    color:#ffffff;
+}
+
+.members-directory {
+    font-family: "Oswald", sans-serif;
+    color:#ffffff;
+    background-image: url("../images/peter-ivey-hansen-xrIJsvytYRw-unsplash.jpg")
 
 }
