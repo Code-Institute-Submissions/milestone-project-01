@@ -122,6 +122,16 @@
     background-image: url("../images/rhondak-native-florida-folk-artist-_Yc7OtfFn-0-unsplash.jpg")
 }
 
+/* ---------------------------------------------Signup Pages-------- */
+
+.tier-1-image {
+    background-color: red;
+}
+
+.tier-2-image {
+    background-color: red;
+}
+
 /* ---------------------------------------------Members Page-------- */
 
 .members-intro {
