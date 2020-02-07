@@ -36,12 +36,14 @@
 .welcome {
     font-family: "Oswald", sans-serif;
     color: red;
-    background-image:url("https://images.unsplash.com/photo-1543218024-c20ba3b0879b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2534&q=80");
+    background-image: url("../images/ioana-cristiana-AH-Z-qq3Mvc-unsplash.jpg");
     background-repeat: none;
     background-size: 100% auto;
     background-clip: padding-box;
     background-position: center;
 }
+
+    background-image:url("https://images.unsplash.com/photo-1543218024-c20ba3b0879b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2534&q=80");
 
 /* ---------------------------------------------Footer-------- */
 
