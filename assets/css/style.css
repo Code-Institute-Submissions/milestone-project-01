@@ -11,7 +11,7 @@
     color: black;
 }
 
-.nav-item {
+.nav-link {
     color: black;
     font-size: 18px;
     font-family: "Oswald", sans-serif;
@@ -42,7 +42,9 @@
     font-weight: 400;
 }
 
-/* ---------------------------------------------Home Page-------- */
+/* ---------------------------------------------Page Standards-------- */
+
+/* Rows */
 
 .height-400 {
     margin: auto;
@@ -50,48 +52,84 @@
     border: 1px solid black;
 }
 
-.welcome-home {
-    font-family: "Oswald", sans-serif;
-    color: red;
-    background-image: url("../images/ioana-cristiana-AH-Z-qq3Mvc-unsplash.jpg");
+/* Images */
+
+.height-400 {
     background-repeat: none;
     background-size: 100% auto;
     background-clip: padding-box;
     background-position: center;
 }
 
+/* ---------------------------------------------Home Page-------- */
+
+.welcome-home {
+    font-family: "Oswald", sans-serif;
+    color:#ffffff;
+    background-image: url("../images/ioana-cristiana-AH-Z-qq3Mvc-unsplash.jpg");
+    /* background-repeat: none;
+    background-size: 100% auto;
+    background-clip: padding-box;
+    background-position: center; */
+}
+
 /* ---------------------------------------------Homepage Images-------- */
 
 .image-1 {
     background-image: url("../images/chase-wilson-Rp5A-XUb0nE-unsplash.jpg");
-    background-repeat: none;
+    /* background-repeat: none;
     background-size: 100%;
     background-clip: padding-box;
-    background-position: center;
+    background-position: center; */
 }
 
 .image-2 {
     background-image: url("../images/chase-wilson-Rp5A-XUb0nE-unsplash.jpg");
-    background-repeat: none;
+    /* background-repeat: none;
     background-size: 100%;
     background-clip: padding-box;
-    background-position: center;
+    background-position: center; */
 }
 
 .image-3 {
     background-image: url("../images/chase-wilson-Rp5A-XUb0nE-unsplash.jpg");
-    background-repeat: none;
+    /* background-repeat: none;
     background-size: 100%;
     background-clip: padding-box;
-    background-position: center;
+    background-position: center; */
 }
 
 /* ---------------------------------------------Testimonials-------- */
 
 .testimonials {
     height: 400px;
-    background-color: pink;
+    background-color: #f2b1d8;
 }
 
 /* ---------------------------------------------Join Page-------- */
 
+.join-hero {
+    background-image: url("../images/matthieu-comoy-koo_vYrlU_U-unsplash.jpg");
+    font-family: "Oswald", sans-serif;
+    color: #ffffff;
+}
+.join-rates {
+    background-color: #8bf0ba;
+    font-family: "Oswald", sans-serif;
+    color: #ffffff;
+}
+
+/* ---------------------------------------------Join Page Images-------- */
+
+.join-image-1 {
+    background-image: url("../images/jessica-ruscello-G8vPQ-XVxxY-unsplash.jpg")
+}
+
+.join-image-2 {
+    background-image: url("../images/rhondak-native-florida-folk-artist-_Yc7OtfFn-0-unsplash.jpg")
+}
+
+.join-contact {
+    background-image: url("../images/rdisruptivo-iQ15DTx-63k-unsplash.jpg")
+
+}
