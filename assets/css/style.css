@@ -52,7 +52,7 @@
     border: 1px solid black;
 }
 
-/* Images */
+/* Image Positioning */
 
 .height-400 {
     background-repeat: none;
@@ -61,16 +61,21 @@
     background-position: center;
 }
 
+/* Standard Text Colors */
+
+.height-400 {
+    font-family: "Oswald", sans-serif;
+    color:#ffffff;
+}
+
+.black-text {
+    color: #000;
+}
+
 /* ---------------------------------------------Home Page-------- */
 
 .welcome-home {
-    font-family: "Oswald", sans-serif;
-    color:#ffffff;
     background-image: url("../images/ioana-cristiana-AH-Z-qq3Mvc-unsplash.jpg");
-    /* background-repeat: none;
-    background-size: 100% auto;
-    background-clip: padding-box;
-    background-position: center; */
 }
 
 /* ---------------------------------------------Homepage Images-------- */
@@ -81,18 +86,10 @@
 
 .image-2 {
     background-image: url("../images/chase-wilson-Rp5A-XUb0nE-unsplash.jpg");
-    /* background-repeat: none;
-    background-size: 100%;
-    background-clip: padding-box;
-    background-position: center; */
 }
 
 .image-3 {
     background-image: url("../images/brooke-lark-KyUmKlXrhAM-unsplash.jpg");
-    /* background-repeat: none;
-    background-size: 100%;
-    background-clip: padding-box;
-    background-position: center; */
 }
 
 /* ---------------------------------------------Testimonials-------- */
@@ -106,13 +103,9 @@
 
 .join-hero {
     background-image: url("../images/matthieu-comoy-koo_vYrlU_U-unsplash.jpg");
-    font-family: "Oswald", sans-serif;
-    color: #ffffff;
 }
 .join-rates {
     background-color: #8bf0ba;
-    font-family: "Oswald", sans-serif;
-    color: #ffffff;
 }
 
 .join-contact {
@@ -132,21 +125,26 @@
 /* ---------------------------------------------Members Page-------- */
 
 .members-intro {
-    font-family: "Oswald", sans-serif;
-    color:#ffffff;
     background-image: url("../images/dylan-gillis-KdeqA3aTnBY-unsplash.jpg")
 
 }
 
 .members-availability {
     background-color: #94f0f1;
-    font-family: "Oswald", sans-serif;
-    color:#ffffff;
 }
 
 .members-directory {
-    font-family: "Oswald", sans-serif;
-    color:#ffffff;
+
     background-image: url("../images/peter-ivey-hansen-xrIJsvytYRw-unsplash.jpg")
 
+}
+
+/* ---------------------------------------------Contact Page-------- */
+
+.contact-map {
+    background-color: #f9f0e0;
+}
+
+.contact-form {
+    background-color: #f2b1d8;
 }
