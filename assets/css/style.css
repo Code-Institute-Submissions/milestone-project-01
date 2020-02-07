@@ -2,21 +2,21 @@
 @import url('https://fonts.googleapis.com/css?family=Oswald:100,200,300,400,500,600m,700');
 
 /* ---------------------------------------------Navigation Bar-------- */
+
 .logo {
-    color: red;
     font-family: "Oxygen", sans-serif;
     font-size: 50px;
-    font-weight: bolder;
+    font-weight: 700;
     letter-spacing: 6px;
+    color: black;
 }
 
 .nav-item {
-    color: blue;
-    font-size: 15px;
+    color: black;
+    font-size: 18px;
     font-family: "Oswald", sans-serif;
-    font-weight: 100;
-    /* position: absolute;
-    top: 50px; */
+    font-weight: 200;
+    letter-spacing: 2px;
 }
 
 .float-bottom {
@@ -32,7 +32,6 @@
     border: 1px solid black;
 }
 
-
 /* ---------------------------------------------Footer-------- */
 
 .btn {
@@ -40,12 +39,12 @@
     color: #ffffff;
     border: none;
     font-size: 18px;
-    font-weight: 500;
-}
-
-.btn-dark {
-    background-color: red;
-    font-family: "Oxygen", sans-serif;
     font-weight: 700;
 }
 
+.btn-dark {
+    background-color: #fff;
+    font-family: "Oswald", sans-serif;
+    color: #000;
+    font-weight: 400;
+}
