@@ -1,5 +1,5 @@
-@import url('https://fonts.googleapis.com/css?family=Oxygen&display=swap');
-@import url('https://fonts.googleapis.com/css?family=Oswald&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Oxygen:100,200,300,400,500,600,700');
+@import url('https://fonts.googleapis.com/css?family=Oswald:100,200,300,400,500,600m,700');
 
 /* ---------------------------------------------Navigation Bar-------- */
 .logo {
@@ -14,9 +14,15 @@
     color: blue;
     font-size: 15px;
     font-family: "Oswald", sans-serif;
-    font-weight: lighter;
+    font-weight: 100;
     /* position: absolute;
     top: 50px; */
+}
+
+.float-bottom {
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
 }
 
 /* ---------------------------------------------Home Page-------- */
@@ -26,15 +32,20 @@
     border: 1px solid black;
 }
 
-.float-bottom {
-    position: absolute;
-    bottom: 0px;
-    right: 0px;
-}
-
 
 /* ---------------------------------------------Footer-------- */
 
-.email-us {
-    font-family: Oswald;
+.btn {
+    margin: auto;
+    color: #ffffff;
+    border: none;
+    font-size: 18px;
+    font-weight: 500;
 }
+
+.btn-dark {
+    background-color: red;
+    font-family: "Oxygen", sans-serif;
+    font-weight: 700;
+}
+
