@@ -43,7 +43,38 @@
     background-position: center;
 }
 
-    background-image:url("https://images.unsplash.com/photo-1543218024-c20ba3b0879b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2534&q=80");
+/* ---------------------------------------------Homepage Images-------- */
+
+.image-1 {
+    background-image: url("../images/chase-wilson-Rp5A-XUb0nE-unsplash.jpg");
+    background-repeat: none;
+    background-size: 100%;
+    background-clip: padding-box;
+    background-position: center;
+}
+
+.image-2 {
+    background-image: url("../images/chase-wilson-Rp5A-XUb0nE-unsplash.jpg");
+    background-repeat: none;
+    background-size: 100%;
+    background-clip: padding-box;
+    background-position: center;
+}
+
+.image-3 {
+    background-image: url("../images/chase-wilson-Rp5A-XUb0nE-unsplash.jpg");
+    background-repeat: none;
+    background-size: 100%;
+    background-clip: padding-box;
+    background-position: center;
+}
+
+/* ---------------------------------------------Testimonials-------- */
+
+.testimonials {
+    height: 400px;
+    background-color: pink;
+}
 
 /* ---------------------------------------------Footer-------- */
 
