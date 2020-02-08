@@ -128,6 +128,10 @@
 }
 
 /* ---------------------------------------------Signup Pages-------- */
+/* 
+.tier-1-header {
+    background-image: url("../images/jadon-barnes-4aUstulNpps-unsplash copy.jpg");
+} */
 
 .tier-1-image {
     background-color: red;
@@ -162,12 +166,13 @@
 
 .contact-map {
     background-color: #f9f0e0;
+    padding: 100px 0;
+    position: ;
 }
 
 .contact-form {
     background-color: #f2b1d8;
     color: black;
     text-align: left;
-    margin: auto;
-    padding: none; 
+    padding: 100px 0;
 }
