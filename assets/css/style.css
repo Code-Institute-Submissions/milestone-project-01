@@ -44,6 +44,9 @@
 
 .footer-background {
     background-color: black;
+    padding: none;
+    border: none;
+
 }
 
 /* ---------------------------------------------Page Standards-------- */
@@ -51,7 +54,6 @@
 /* Rows */
 
 .height-400 {
-    margin: auto;
     height: 400px;
     border: 1px solid black;
 }
@@ -128,10 +130,11 @@
 }
 
 /* ---------------------------------------------Signup Pages-------- */
-/* 
-.tier-1-header {
-    background-image: url("../images/jadon-barnes-4aUstulNpps-unsplash copy.jpg");
-} */
+
+.tier-1-hero {
+    color: red;
+    background-image: url("../images/jadon-barnes-4aUstulNpps-unsplash-copy.jpg")
+}
 
 .tier-1-image {
     background-color: red;
@@ -143,6 +146,10 @@
 
 .form-col {
     height: 500px;
+}
+
+.application-form {
+    padding-top: 30px;
 }
 
 /* ---------------------------------------------Members Page-------- */
@@ -157,9 +164,7 @@
 }
 
 .members-directory {
-
     background-image: url("../images/peter-ivey-hansen-xrIJsvytYRw-unsplash.jpg")
-
 }
 
 /* ---------------------------------------------Contact Page-------- */
