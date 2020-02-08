@@ -42,6 +42,10 @@
     font-weight: 400;
 }
 
+.footer-background {
+    background-color: black;
+}
+
 /* ---------------------------------------------Page Standards-------- */
 
 /* Rows */
@@ -101,25 +105,26 @@
 
 /* ---------------------------------------------Join Page-------- */
 
-.join-hero {
-    background-image: url("../images/matthieu-comoy-koo_vYrlU_U-unsplash.jpg");
-}
 .join-rates {
     background-color: #8bf0ba;
 }
 
-.join-contact {
-    background-color: #ffdc6a;
-}
-
 /* ---------------------------------------------Join Page Images-------- */
 
+.join-hero {
+    background-image: url("../images/emarts-emarts-ZCTh4f4mv18-unsplash.jpg");
+}
+
 .join-image-1 {
-    background-image: url("../images/jessica-ruscello-G8vPQ-XVxxY-unsplash.jpg")
+    background-image: url("../images/andrew-neel-QLqNalPe0RA-unsplash.jpg")
 }
 
 .join-image-2 {
-    background-image: url("../images/rhondak-native-florida-folk-artist-_Yc7OtfFn-0-unsplash.jpg")
+    background-image: url("../images/jennifer-burk-CHG8eMpD1Aw-unsplash.jpg")
+}
+
+.join-contact {
+    background-image: url("../images/fabian-frey-fYYAF5WOQU8-unsplash.jpg")
 }
 
 /* ---------------------------------------------Signup Pages-------- */
@@ -161,4 +166,8 @@
 
 .contact-form {
     background-color: #f2b1d8;
+    color: black;
+    text-align: left;
+    margin: auto;
+    padding: none; 
 }
