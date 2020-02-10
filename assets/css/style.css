@@ -104,6 +104,11 @@
     color: #000;
 }
 
+.col-lg-4 .height-400 .black-text, li {
+    font-size: 20px;
+    /* font-weight: 200; */
+}
+
 /* ---------------------------------------------Home Page-------- */
 
 .welcome-home {
