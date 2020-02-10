@@ -44,17 +44,19 @@
 
 .footer-background {
     background-color: black;
-    padding: none;
-    border: none;
-
 }
 
-/* ---------------------------------------------Page Standards-------- */
+/* ---------------------------------------------Page Row Standards-------- */
 
 /* Rows */
 
 .height-400 {
     height: 400px;
+    border: 1px solid black;
+}
+
+.height-200 {
+    height: 200px;
     border: 1px solid black;
 }
 
@@ -67,9 +69,16 @@
     background-position: center;
 }
 
-/* Standard Text Colors */
+.height-200 {
+    background-repeat: none;
+    background-size: 100%;
+    background-clip: padding-box;
+    background-position: center;
+}
 
-.height-400 {
+/* Standard Text Fonts & Colors */
+
+.height-400, .height-200 {
     font-family: "Oswald", sans-serif;
     color:#ffffff;
 }
@@ -95,7 +104,7 @@
 }
 
 .image-3 {
-    background-image: url("../images/brooke-lark-KyUmKlXrhAM-unsplash.jpg");
+    background-image: url("../images/rhondak-native-florida-folk-artist-_Yc7OtfFn-0-unsplash.jpg");
 }
 
 /* ---------------------------------------------Testimonials-------- */
@@ -118,15 +127,15 @@
 }
 
 .join-image-1 {
-    background-image: url("../images/andrew-neel-QLqNalPe0RA-unsplash.jpg")
+    background-image: url("../images/andrew-neel-QLqNalPe0RA-unsplash.jpg");
 }
 
 .join-image-2 {
-    background-image: url("../images/jennifer-burk-CHG8eMpD1Aw-unsplash.jpg")
+    background-image: url("../images/jennifer-burk-CHG8eMpD1Aw-unsplash.jpg");
 }
 
 .join-contact {
-    background-image: url("../images/fabian-frey-fYYAF5WOQU8-unsplash.jpg")
+    background-color: #ffdc6a;
 }
 
 /* ---------------------------------------------Signup Pages-------- */
