@@ -136,12 +136,15 @@
     background-image: url("../images/jadon-barnes-4aUstulNpps-unsplash-copy.jpg")
 }
 
-.tier-1-image {
-    background-color: red;
+.tier-2-hero {
+    color: red;
+    background-image: url("../images/bench-accounting-FIM--j1B_Rc-unsplash.jpg")
 }
 
-.tier-2-image {
-    background-color: red;
+.tier-3-hero {
+    color: red;
+    background-image: url("../images/alex-simpson-DEIeAfI3hus-unsplash.jpg")
+
 }
 
 .form-col {
