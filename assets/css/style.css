@@ -71,7 +71,7 @@
 
 .height-200 {
     background-repeat: none;
-    background-size: 100%;
+    background-size: 100% auto;
     background-clip: padding-box;
     background-position: center;
 }
