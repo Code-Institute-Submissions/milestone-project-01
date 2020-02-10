@@ -93,10 +93,12 @@
 .height-400, .height-200 {
     font-family: "Oswald", sans-serif;
     color:#ffffff;
+    font-weight: 200;
 }
 
 .black-text {
     color: #000;
+    font-weight: 200;
 }
 
 /* ---------------------------------------------Home Page-------- */
@@ -104,8 +106,6 @@
 .welcome-home {
     background-image: url("../images/ioana-cristiana-AH-Z-qq3Mvc-unsplash.jpg");
 }
-
-/* ---------------------------------------------Homepage Images-------- */
 
 .image-1 {
     background-color: #0e0fed;
@@ -151,8 +151,6 @@
 .join-rates {
     background-color: #8bf0ba;
 }
-
-/* ---------------------------------------------Join Page Images-------- */
 
 .join-hero {
     background-image: url("../images/emarts-emarts-ZCTh4f4mv18-unsplash.jpg");
@@ -225,3 +223,12 @@
     text-align: left;
     padding: 100px 0;
 }
+
+/* ---------------------------------------------Responsive Design-------- */
+
+/* Homepage */
+/* 
+.col-lg-6, .col-sm-12-white, .height-400, .black-text {
+    background-color: #0e0fed;
+    color: white;
+    } */
