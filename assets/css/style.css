@@ -106,7 +106,7 @@
 
 .col-lg-4 .height-400 .black-text, li {
     font-size: 20px;
-    /* font-weight: 200; */
+    font-weight: 400;
 }
 
 /* ---------------------------------------------Home Page-------- */
@@ -150,7 +150,10 @@
     background-image: url("../images/juliet-furst-tFteUnwflA0-unsplash.jpg");
 }
 
-.testimonial-text {
+.testimonial-text-1, 
+.testimonial-text-2, 
+.testimonial-text-3, 
+.testimonial-text-4 {
     font-weight: 100;
 }
 
@@ -174,6 +177,11 @@
 
 .join-contact {
     background-color: #ffdc6a;
+}
+
+.btn-dark-join {
+    font-size: 30px;
+    background-color: #000;
 }
 
 /* ---------------------------------------------Signup Pages-------- */
@@ -235,8 +243,43 @@
 /* ---------------------------------------------Responsive Design-------- */
 
 /* Homepage */
-/* 
-.col-lg-6, .col-sm-12-white, .height-400, .black-text {
+
+@media only screen and (max-width: 991px) {
+  .home-first-para {
     background-color: #0e0fed;
     color: white;
-    } */
+  }
+
+  .home-second-para {
+    background-color: #f9f0e0;
+    color: black;
+    }
+}
+
+@media only screen and (min-width: 991px) {
+    .h5-small {
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 991px) {
+  .testimonial-text-1 {
+    background-image: url("../images/allef-vinicius-P2BoE6tb8ig-unsplash.jpg");
+    color: white;
+  }
+
+  .testimonial-text-2 {
+    background-image: url("../images/kenny-luo-xyC3Bx8FXnI-unsplash.jpg");
+    color: white;
+  }
+  
+  .testimonial-text-3 {
+    background-image: url("../images/svetlana-pochatun-DgCaEOnfBdo-unsplash.jpg");
+    color: white;
+  }
+  
+  .testimonial-text-4 {
+    background-image: url("../images/juliet-furst-tFteUnwflA0-unsplash.jpg");
+    color: white;
+  }
+}
