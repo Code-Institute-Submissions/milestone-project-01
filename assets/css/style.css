@@ -14,7 +14,7 @@
 .nav-link {
     color: black;
     font-size: 18px;
-    font-family: "Oswald", sans-serif;
+    font-family: "oxygen", sans-serif;
     font-weight: 200;
     letter-spacing: 2px;
 }
@@ -98,7 +98,6 @@
 
 .black-text {
     color: #000;
-    font-weight: 200;
 }
 
 /* ---------------------------------------------Home Page-------- */
