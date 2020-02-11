@@ -19,8 +19,8 @@
     letter-spacing: 3px;
 }
 
-.header-band {
-    height: 50px;
+.header-bar {
+    background-color: white;
 }
 
 /* ---------------------------------------------Footer-------- */
@@ -244,11 +244,21 @@
     position: center;
 }
 
+.contact-page-map {
+    resize: inherit;
+    position: center;
+    margin: auto;
+}
+
 .contact-form {
-    background-color: #f2b1d8;
+    background-image: url("../images/khara-woods-KR84RpMCb0w-unsplash.jpg");
     color: black;
     text-align: left;
     padding: 100px 0;
+}
+
+.contact-footer {
+    position: bottom;
 }
 
 /* ---------------------------------------------Responsive Design-------- */
