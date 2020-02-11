@@ -44,6 +44,10 @@
     background-color: black;
 }
 
+.card, .text-center {
+    border: none;
+}
+
 /* ---------------------------------------------Page Row Standards-------- */
 
 /* Rows */
@@ -194,15 +198,26 @@
     background-image: url("../images/jadon-barnes-4aUstulNpps-unsplash-copy.jpg")
 }
 
+.tier-1-contact-image {
+    background-color: red;
+}
+
 .tier-2-hero {
     color: red;
     background-image: url("../images/bench-accounting-FIM--j1B_Rc-unsplash.jpg")
 }
 
+.tier-2-contact-image {
+    background-color: red;
+}
+
 .tier-3-hero {
     color: red;
     background-image: url("../images/alex-simpson-DEIeAfI3hus-unsplash.jpg")
+}
 
+.tier-3-contact-image {
+    background-color: red;
 }
 
 .form-col {
@@ -210,7 +225,12 @@
 }
 
 .application-form {
-    padding-top: 30px;
+    padding-top: 20px;
+}
+
+.submit-button {
+    background-color: #000;
+    color: white;
 }
 
 /* ---------------------------------------------Members Page-------- */
@@ -225,14 +245,14 @@
 }
 
 .members-directory {
-    background-image: url("../images/peter-ivey-hansen-xrIJsvytYRw-unsplash.jpg")
+    background-image: url("../images/peter-ivey-hansen-xrIJsvytYRw-unsplash.jpg");
 }
 
-.members-directory, label {
+.members-directory label {
     font-family: "oswald", sans-serif;
     font-size: 20px;
-    color: white;
-    font-weight: 200;
+    color: red;
+    font-weight: 400;
     padding-top: 10px;
 }
 
@@ -241,14 +261,16 @@
 .contact-map {
     background-color: #f9f0e0;
     /* padding: 100px 0; */
-    position: center;
+    /* position: center; */
 }
 
-.contact-page-map {
-    resize: inherit;
-    position: center;
-    margin: auto;
+.google-map {
+    height: 400px;
+    width: 100%;
+    border: none;
+    padding: none;
 }
+/* width="600" height="400" */
 
 .contact-form {
     background-image: url("../images/khara-woods-KR84RpMCb0w-unsplash.jpg");
