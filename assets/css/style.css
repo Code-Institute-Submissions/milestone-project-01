@@ -63,6 +63,11 @@
     /* border: 1px solid black; */
 }
 
+.height-600 {
+    height: 600px;
+    /* border: 1px solid black; */
+}
+
 /* Image Positioning */
 
 .height-400 {
@@ -221,6 +226,14 @@
 
 .members-directory {
     background-image: url("../images/peter-ivey-hansen-xrIJsvytYRw-unsplash.jpg")
+}
+
+.members-directory, label {
+    font-family: "oswald", sans-serif;
+    font-size: 20px;
+    color: white;
+    font-weight: 200;
+    padding-top: 10px;
 }
 
 /* ---------------------------------------------Contact Page-------- */

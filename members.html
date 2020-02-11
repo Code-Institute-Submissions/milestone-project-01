@@ -32,9 +32,10 @@
 									<a class="nav-link" href="join.html">join us</a>
 								</li>
 								<li class="nav-item active">
-									<a class="nav-link" href="members.html">members<span class="sr-only">(current)</span></a>
+									<a class="nav-link"
+										href="members.html">members<span class="sr-only">(current)</span></a>
 								</li>
-                                <li class="nav-item">
+								<li class="nav-item">
 									<a class="nav-link" href="contact.html">contact</a>
 								</li>
 							</ul>
@@ -46,21 +47,68 @@
 	</header>
 
 	<section class="container-fluid">
-        <div class="row height-400">
+		<div class="row height-400">
 			<div class="col-12 height-400 members-intro">
-                <h1>member features</h1>
-                <h3>On this page you can enquire about availability and book facilities.</h3>
-                <h3>If you have a collaboration idea, need help or want to commission someone with a particular skillset you can also use the form below to get the wheels in motion.</h3>			
-            </div>
+				<h1>member features</h1>
+				<h3>On this page you can enquire about availability and book facilities.</h3>
+				<h3>If you have a collaboration idea, need help or want to commission someone with a particular skillset
+					you can also use the form below to get the wheels in motion.</h3>
+			</div>
 		</div>
-        <div class="row height-400">
+		<div class="row height-400">
 			<div class="col-12 height-400 members-availability">
 				<h1>ROOM AVAILABILITY ENQUIRY FORM</h1>
 			</div>
 		</div>
-        <div class="row height-400">
-			<div class="col-12 height-400 members-directory">
-				<h1>MEMBER DIRECTORY ENQUIRY FORM</h1>
+		<div class="row height-600">
+			<div class="col-12 height-600 members-directory">
+				<form>
+					<div class="form-group">
+						<label for="MembershipNumber">Membership Number</label>
+						<input type="text" class="form-control" id="MembershipNumber" placeholder="10 digit number (starting with 9">
+                    </div>
+                    <div class="form-group">
+						<label for="EmailEnquiryInput">Email address</label>
+						<input type="email" class="form-control" id="EmailEnquiryInput" placeholder="name@example.com">
+                    </div>
+                    <div class="form-group">
+                        <label for="CollaborationType">Type of enquiry</label>
+                        <select class="form-control" id="CollaborationType">
+                            <option>Collaboration with a specific skillset</option>
+                            <option>Commission a particular skillset</option>
+                            <option>HELP! Skilled assistance required</option>
+                            <option>I'm available for teaching</option>
+                            <option>Other</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label for="SpecialismSelection">Skill required</label>
+                        <select class="form-control" id="SpecialismSelection">
+                            <option>Accessories</option>    
+                            <option>Ceramics</option>
+                            <option>Digital</option>
+                            <option>Fashion Design - Menswear</option>
+                            <option>Fashion Design - Womenswear</option>
+                            <option>Film</option>
+                            <option>Furniture</option>
+                            <option>Graphic Design</option>
+                            <option>Interiors</option>
+                            <option>Painting</option>
+                            <option>Performance</option>
+                            <option>Photography</option>
+                            <option>Print</option>
+                            <option>Product Design</option>
+                            <option>Sculpture</option>
+                            <option>Textiles</option>
+                            <option>Typography</option>
+                            <option>Other</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label for="ShortBriefText">Your brief</label>
+                        <textarea class="form-control" id="ShortBriefText" rows="3">Please type a short brief for possible collaborators and include things like what is required, what your idea is, if there are any fees, plus start and end dates.</textarea>
+                    </div>
+				</form>
 			</div>
 		</div>
 	</section>
@@ -82,12 +130,15 @@
 		</div>
 	</footer>
 
-<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous">
-</script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous">
-</script>
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous">
-</script>
+	<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+		integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous">
+	</script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+		integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous">
+	</script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+		integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous">
+	</script>
 
 </body>
 
