@@ -54,41 +54,57 @@
     padding-top: 45vh;
 }
 
+/* Hero-text in header */
 h1.header {
-    color:red;
+    color: white;
     font-family: "Oswald", sans-serif;
     font-size: 90px;
 }
 
+/* Sub-text in header */
 h3.header {
-    color:red;
+    color: white;
     font-family: "Oswald", sans-serif;
     font-size: 60px;
 }
 
+/* Blurb on homepage */
 .large-text h3 {
-    padding: 3vh 0;
+    padding: 2vh 5vh;
     font-family: "Oswald", sans-serif;
-    color:black;
+    color: black;
+    font-size: 25px;
     font-weight: 300;
 }
 
+/* Testimonials */
 .small-text h5 {
     padding: 3vh 0;
     font-family: "Oswald", sans-serif;
     color: black;
+    font-size: 20px;
     font-weight: 200;
 }
 
+/* Bar above the footer */
+.contact-bar h2 {
+    font-family: "Oswald", sans-serif;
+    font-size: 40px;
+    height: 20vh;
+    line-height: 0.5;
+}
+
+/* Tier headings on join page */
 .small-text h3 {
     padding: 3vh 0;
     font-family: "Oswald", sans-serif;
-    color: black;
+    color:black;
     font-weight: 200;
-    font-size: 25px;
+    font-size: 30px;
     font-weight: bold;
 }
 
+/* Tier List Items */
 .small-text li {
     font-family: "Oswald", sans-serif;
     color: black;
@@ -96,6 +112,7 @@ h3.header {
     font-size: 20px;
 }
 
+/* Names in testimonials */
 .small-caption-text h5 {
     padding: 3vh 0;
     font-family: "Oswald", sans-serif;
@@ -103,8 +120,11 @@ h3.header {
     font-weight: bold;
 }
 
-.questions-bar {
-    padding: 10vh 0;
+.breathing-space {
+    height: 2.5vh;
+    margin: none;
+    border: none;
+    background-color: white;   
 }
 
 /* ---------------------------------------------Page Standards NEW-------- */
@@ -131,11 +151,12 @@ h3.header {
 }
 
 .image-1 {
-    background-color: #0e0fed;
+    background-image: url("../images/chase-wilson-Rp5A-XUb0nE-unsplash.jpg");
+    background-size: 100% auto;
 }
 
 .image-2 {
-    background-image: url("../images/chase-wilson-Rp5A-XUb0nE-unsplash.jpg");
+    background-image: url("../images/annie-spratt-FSFfEQkd1sc-unsplash.jpg");
     background-size: 100% auto;
 }
 
