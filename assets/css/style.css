@@ -52,9 +52,18 @@
 
 .header-padding {
     padding-top: 45vh;
+}
+
+h1.header {
     color:red;
     font-family: "Oswald", sans-serif;
-    font-size: 70px;
+    font-size: 90px;
+}
+
+h3.header {
+    color:red;
+    font-family: "Oswald", sans-serif;
+    font-size: 60px;
 }
 
 .large-text h3 {
