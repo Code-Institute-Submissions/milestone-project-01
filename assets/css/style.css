@@ -81,7 +81,6 @@
 }
 
 .small-text li {
-    padding: 3vh 0;
     font-family: "Oswald", sans-serif;
     color: black;
     font-weight: 200;
@@ -172,14 +171,18 @@
 
 .join-hero {
     background-image: url("../images/emarts-emarts-ZCTh4f4mv18-unsplash.jpg");
+    background-size: 100% auto;
 }
 
 .join-image-1 {
     background-image: url("../images/andrew-neel-QLqNalPe0RA-unsplash.jpg");
+    background-size: 100% auto;
+
 }
 
 .join-image-2 {
     background-image: url("../images/jennifer-burk-CHG8eMpD1Aw-unsplash.jpg");
+    background-size: 100% auto;
 }
 
 .join-contact {
@@ -191,6 +194,14 @@
     background-color: #000;
 }
 
+.join-hero-text {
+    padding: 3vh 3vh;
+    font-family: "Oswald", sans-serif;
+    color:black;
+    font-weight: 300;
+    background-color: #f9f0e0;
+}
+
 /* ---------------------------------------------Members NEW-------- */
 
 .members-intro {
@@ -198,12 +209,17 @@
 
 }
 
-.members-availability {
+/* .members-availability {
+    background-color: #94f0f1;
+} */
+
+.members-directory {
+    /* background-image: url("../images/peter-ivey-hansen-xrIJsvytYRw-unsplash.jpg"); */
     background-color: #94f0f1;
 }
 
-.members-directory {
-    background-image: url("../images/peter-ivey-hansen-xrIJsvytYRw-unsplash.jpg");
+.buffer {
+    background-color: #94f0f1;
 }
 
 .members-directory label {
@@ -270,7 +286,6 @@
     border: none;
     padding: none;
 }
-/* width="600" height="400" */
 
 .contact-form {
     background-image: url("../images/khara-woods-KR84RpMCb0w-unsplash.jpg");
