@@ -78,6 +78,8 @@
     margin: 0 10%;
 }
 
+/* ---------------------------------------------Fonts for all pages-------- */
+
 /* Hero-text in headers */
 h1.header {
     color: white;
@@ -108,6 +110,15 @@ h3.header {
     color: black;
     font-size: 30px;
     font-weight: 300;
+}
+
+/* Used on the contact page */
+.large-text-white h2 {
+    padding: 1vh 1vh;
+    font-family: "Oswald", sans-serif;
+    color: white;
+    font-size: 30px;
+    font-weight: bolder;
 }
 
 /* Testimonials */
@@ -335,28 +346,28 @@ h3.header {
 /* ---------------------------------------------Contact Page-------- */
 
 .contact-map {
-    background-color: #f9f0e0;
-    /* padding: 100px 0; */
-    /* position: center; */
+    background-color: white;
 }
 
 .google-map {
-    height: 400px;
+    height: 100%;
     width: 100%;
     border: none;
     padding: none;
 }
 
-.contact-form {
+.contact-info {
     background-image: url("../images/khara-woods-KR84RpMCb0w-unsplash.jpg");
+    background-size: 100% auto;
     color: black;
     text-align: left;
     padding: 100px 0;
 }
 
 .contact-intro {
-    background-color: blue;
-    color: white;
+    background-image: url("../images/plqml-MuGkTlj--lg-unsplash.jpg");
+    background-size: 100% auto;
+    background-attachment: fixed;
 }
 
 /* ---------------------------------------------Media Queries-------- */
@@ -445,8 +456,8 @@ h3.header {
     }
 }
 
-/* Join Page */
 
+/* Join Page */
 @media only screen and (max-width: 991px) {
     .tier-text-1 {
         background-color: #ffdc6a;
@@ -476,14 +487,28 @@ h3.header {
     background-image: url("../images/bench-accounting-FIM--j1B_Rc-unsplash.jpg");
     background-size: cover;
     background-attachment: fixed;
-}
+    }
 
     .tier-3-hero {
     background-image: url("../images/angelina-litvin-S6wHfOpdGkY-unsplash.jpg");
     background-size: cover;
     background-attachment: fixed;
+    }
 }
 
+/* Contact Page */
+
+/* Contact details background */
+@media only screen and (max-width: 991px) {
+    .contact-info {
+    background-image: none;
+    background-color: #f2b1d8;
+    }
 }
 
+@media only screen and (max-width: 991px) {
+    .contact-map {
+        height: 45vh;
+        padding: 0 0 0 0;
+    }
 
