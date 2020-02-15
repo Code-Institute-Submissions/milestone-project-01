@@ -125,7 +125,7 @@ h3.header {
     padding: 2vh 5vh;
     font-family: "Oswald", sans-serif;
     color: black;
-    font-size: 35px;
+    font-size: 30px;
     font-weight: 300;
 }
 
@@ -272,15 +272,25 @@ h3.header {
     padding-top: 10px;
 }
 
+.application-form label {
+    font-family: "oswald", sans-serif;
+    font-size: 25px;
+    color: black;
+    font-weight: 400;
+    padding-top: 10px;
+}
+
 /* ---------------------------------------------Signup Pages NEW-------- */
 
 .tier-1-hero {
     color: red;
-    background-image: url("../images/jadon-barnes-4aUstulNpps-unsplash-copy.jpg")
+    background-image: url("../images/fabian-frey-fYYAF5WOQU8-unsplash.jpg");
+    background-size: 100% auto;
+
 }
 
 .tier-1-contact-image {
-    background-color: red;
+    background-color: #94f0f1;
 }
 
 .tier-2-hero {
@@ -302,7 +312,7 @@ h3.header {
 }
 
 .form-col {
-    height: 500px;
+    padding: 1.5vh 1.5vh;
 }
 
 .application-form {
@@ -420,8 +430,16 @@ h3.header {
     }
 }
 
+/* Tiered Membership Pages */
 
+@media only screen and (max-width: 991px) {
+    .tier-1-questions {
+        background-image: url("../images/disruptivo-iQ15DTx-63k-unsplash.jpg");
+        color: white;
+        height: 20vh;
+        background-size: 100% auto;
 
+    }
 
 
 
@@ -484,11 +502,11 @@ h3.header {
 
 /* Standard Text Fonts & Colors */
 
-.height-400, .height-200 {
+/* .height-400, .height-200 {
     font-family: "Oswald", sans-serif;
     color:#ffffff;
     font-weight: 100;
-}
+} */
 
 /* .black-text {
     color: #000;
