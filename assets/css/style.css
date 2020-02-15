@@ -3,19 +3,13 @@
 
 /* ---------------------------------------------Text Margins-------- */
 
-.header-text {
-    margin: 0 0 5% 15%;
-}
 
-.max-width {
-    max-width: 80%;
-    margin: 0 10%;
-}
-
+/* First paragraph on homepage */
 .home-first-para h3 {
     margin: 0 0 0 20%;
 }
 
+/* Second paragraph on homepage */
 .home-second-para h3 {
     margin: 0 20% 0 0;
 }
@@ -67,32 +61,52 @@
     border: none;
 }
 
-/* ---------------------------------------------Page Standards NEW-------- */
+/* ---------------------------------------------Layout features for all pages-------- */
 
 .header-padding {
     padding-top: 45vh;
 }
 
-/* Hero-text in header */
+/* Margin for text in header boxes */
+.header-text {
+    margin: 0 0 5% 15%;
+}
+
+/* Widths to avoid stretching to edge of screen */
+.max-width {
+    max-width: 80%;
+    margin: 0 10%;
+}
+
+/* Hero-text in headers */
 h1.header {
     color: white;
     font-family: "Oswald", sans-serif;
     font-size: 90px;
 }
 
-/* Sub-text in header */
+/* Sub-text in headers */
 h3.header {
     color: white;
     font-family: "Oswald", sans-serif;
     font-size: 40px;
 }
 
-/* Blurb on homepage */
+/* Copy sections */
 .large-text h3 {
     padding: 2vh 5vh;
     font-family: "Oswald", sans-serif;
     color: black;
     font-size: 25px;
+    font-weight: 300;
+}
+
+/* Larger Copy Text on Members Page */
+.large-text h2 {
+    padding: 2vh 5vh;
+    font-family: "Oswald", sans-serif;
+    color: black;
+    font-size: 30px;
     font-weight: 300;
 }
 
@@ -110,10 +124,10 @@ h3.header {
     font-family: "Oswald", sans-serif;
     font-size: 40px;
     height: 20vh;
-    line-height: 0.5;
+    color: black;
 }
 
-/* Tier headings on join page */
+/* Tier headings*/
 .small-text h3 {
     padding: 3vh 0;
     font-family: "Oswald", sans-serif;
@@ -123,7 +137,7 @@ h3.header {
     font-weight: bold;
 }
 
-/* Tier List Items */
+/* List Items*/
 .small-text li {
     font-family: "Oswald", sans-serif;
     color: black;
@@ -131,7 +145,7 @@ h3.header {
     font-size: 20px;
 }
 
-/* Names in testimonials */
+/* Names in testimonials*/
 .small-caption-text h5 {
     padding: 3vh 0;
     font-family: "Oswald", sans-serif;
@@ -139,15 +153,7 @@ h3.header {
     font-weight: bold;
 }
 
-/* Buffer Text on Members Page */
-.large-text h2 {
-    padding: 2vh 5vh;
-    font-family: "Oswald", sans-serif;
-    color: black;
-    font-size: 30px;
-    font-weight: 300;
-}
-
+/* Dividing Bar */
 .breathing-space {
     height: 3vh;
     margin: none;
@@ -155,23 +161,7 @@ h3.header {
     background-color: white;   
 }
 
-/* ---------------------------------------------Page Standards NEW-------- */
-
-/* .larger-row {
-    height: 40vh;
-    padding-top: 5vh;
-    padding-bottom: 5vh;
-}
-
-.medium-row {
-    height: 30vh;
-}
-
-.narrow-row {
-    height: 15vh;
-} */
-
-/* ---------------------------------------------Homepage NEW-------- */
+/* ---------------------------------------------Homepage-------- */
 
 .welcome-home {
     background-image: url("../images/ioana-cristiana-AH-Z-qq3Mvc-unsplash.jpg");
@@ -213,13 +203,12 @@ h3.header {
     background-size: 100% auto;
 }
 
-.testimonial-text-1, 
+/* .testimonial-text-1, 
 .testimonial-text-2, 
 .testimonial-text-3, 
 .testimonial-text-4 {
     font-weight: 100;
-}
-/* ---------------------------------------------Homepage NEW Media Queries-------- */
+} */
 
 /* ---------------------------------------------Join Us NEW-------- */
 
@@ -235,7 +224,6 @@ h3.header {
 .join-image-1 {
     background-image: url("../images/andrew-neel-QLqNalPe0RA-unsplash.jpg");
     background-size: 100% auto;
-
 }
 
 .join-image-2 {
@@ -264,7 +252,6 @@ h3.header {
 
 .members-intro {
     background-image: url("../images/dylan-gillis-KdeqA3aTnBY-unsplash.jpg")
-
 }
 
 .members-booking {
@@ -299,7 +286,7 @@ h3.header {
     padding-top: 10px;
 }
 
-/* ---------------------------------------------Signup Pages NEW-------- */
+/* ---------------------------------------------Signup Pages-------- */
 
 /* Hero Image on Tier 1 Page */
 .tier-1-hero {
@@ -363,24 +350,39 @@ h3.header {
 
 /* Homepage */
 
+/* Margins and Padding Changes */
 @media only screen and (max-width: 991px) {
-  .home-first-para {
-    background-color: #0e0fed;
+    .small-text h5 {
+    padding: 3vh 0;
+    font-family: "Oswald", sans-serif;
     color: white;
-  }
-
-  .home-second-para {
-    background-color: #f9f0e0;
+    font-size: 25px;
+    font-weight: 300;
+}
+    .large-text h3 {
     color: black;
+    }
+
+  .home-first-para h3 {
+    margin: 0 0 0 0;
+    font-size: 25px;
+    font-weight: 200;
+    }
+
+  .home-second-para h3 {
+    margin: 0 0 0 0;
+    font-size: 25px;
+    font-weight: 200;
     }
 }
 
-@media only screen and (min-width: 991px) {
+/* @media only screen and (min-width: 991px) {
     .h5-small {
         display: none;
     }
-}
+} */
 
+/* Text and Image Changes */
 @media only screen and (max-width: 991px) {
   .testimonial-text-1 {
     background-image: url("../images/allef-vinicius-P2BoE6tb8ig-unsplash.jpg");
@@ -407,14 +409,20 @@ h3.header {
     color: white;
   }
 
-  .home-first-para h3 {
+}
 
-      font-size: 21px;
-      font-weight: lighter;
-  }
-  .home-second-para h3 {
-      font-size: 21px;
-      font-weight: lighter;
+/* Contact Bar */
+@media only screen and (max-width: 991px) {
+    .homepage-contact-bar {
+    background-image: url("../images/rhondak-native-florida-folk-artist-_Yc7OtfFn-0-unsplash.jpg");
+    }
+
+    /* Text in bar above the footer */
+    .contact-bar h2 {
+    font-family: "Oswald", sans-serif;
+    font-size: 30px;
+    color: white;
+    margin: 5% 0 0 15%;
     }
 }
 
@@ -437,13 +445,4 @@ h3.header {
         background-color: #f2b1d8;
     }
 }
-
-/* Tiered Membership Pages */
-
-@media only screen and (max-width: 991px) {
-    
-
-
-
-
 
