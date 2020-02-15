@@ -1,6 +1,25 @@
 @import url('https://fonts.googleapis.com/css?family=Oxygen:100,200,300,400,500,600,700');
 @import url('https://fonts.googleapis.com/css?family=Oswald:100,200,300,400,500,600m,700');
 
+/* ---------------------------------------------Text Margins-------- */
+
+.header-text {
+    margin: 0 0 5% 15%;
+}
+
+.max-width {
+    max-width: 80%;
+    margin: 0 10%;
+}
+
+.home-first-para h3 {
+    margin: 0 0 0 20%;
+}
+
+.home-second-para h3 {
+    margin: 0 20% 0 0;
+}
+
 /* ---------------------------------------------Navigation Bar-------- */
 
 .logo {
@@ -282,33 +301,22 @@ h3.header {
 
 /* ---------------------------------------------Signup Pages NEW-------- */
 
+/* Hero Image on Tier 1 Page */
 .tier-1-hero {
     background-image: url("../images/fabian-frey-fYYAF5WOQU8-unsplash.jpg");
     background-size: 100% auto;
-
 }
 
-.tier-1-contact-image {
-    background-color: #94f0f1;
-}
-
+/* Hero Image on Tier 2 Page */
 .tier-2-hero {
     background-image: url("../images/bench-accounting-FIM--j1B_Rc-unsplash.jpg");
     background-size: 100% auto;
-
 }
 
-.tier-2-contact-image {
-    background-color: red;
-}
-
+/* Hero Image on Tier 3 Page */
 .tier-3-hero {
     background-image: url("../images/angelina-litvin-S6wHfOpdGkY-unsplash.jpg");
     background-size: 100% auto;
-}
-
-.tier-3-contact-image {
-    background-color: red;
 }
 
 .form-col {
@@ -433,126 +441,7 @@ h3.header {
 /* Tiered Membership Pages */
 
 @media only screen and (max-width: 991px) {
-    .tier-1-questions {
-        background-image: url("../images/disruptivo-iQ15DTx-63k-unsplash.jpg");
-        color: white;
-        height: 20vh;
-        background-size: 100% auto;
-
-    }
-
-
-
-
-
-
-
-
-/* ---------------------------------------------Page Row Standards OLD-------- */
-
-/* Rows */
-
-/* /* .height-400 {
-    height: 400px;
-    /* border: 1px solid black; */
-} */
-
-
-/* .set-height-60 {
-    height: 60vh;
-}
-
-.height-200 {
-    height: 200px;
-    /* border: 1px solid black; */
-}
-
-/* .height-100 {
-    height: 100px;
-    border: 1px solid black; */
-}
-
-/* .height-600 {
-    height: 600px;
-    border: 1px solid black; */
-} */ */
-
-/* Image Positioning */
-
-/* .height-400 {
-    background-repeat: none;
-    background-size: 100% auto;
-    background-clip: padding-box;
-    background-position: center;
-}
-
-.height-200 {
-    background-repeat: none;
-    background-size: 100% auto;
-    background-clip: padding-box;
-    background-position: center;
-}
-
-.height-100 {
-    background-repeat: none;
-    background-size: 100% auto;
-    background-clip: padding-box;
-    background-position: center;
-} */
-
-/* Standard Text Fonts & Colors */
-
-/* .height-400, .height-200 {
-    font-family: "Oswald", sans-serif;
-    color:#ffffff;
-    font-weight: 100;
-} */
-
-/* .black-text {
-    color: #000;
-    font-family: "Oswald", sans-serif;
-} */
-
-/* .col-lg-4 .height-400 .black-text, li {
-    font-size: 20px;
-    font-weight: 200;
-} */
-
-/* .black-text, h5 {
-    font-weight: 100;
-} */
-
-/* ---------------------------------------------Home Page--------
-
-.welcome-home {
-    background-image: url("../images/ioana-cristiana-AH-Z-qq3Mvc-unsplash.jpg");
-}
-
-.image-1 {
-    background-color: #0e0fed;
-}
-
-.image-2 {
-    background-image: url("../images/chase-wilson-Rp5A-XUb0nE-unsplash.jpg");
-}
-
-.image-3 {
-    background-image: url("../images/rhondak-native-florida-folk-artist-_Yc7OtfFn-0-unsplash.jpg");
-} */
-
-/* ---------------------------------------------Testimonials-------- */
-
-
-
-/* ---------------------------------------------Join Page-------- */
-
-
-
-
-
-
-/* ---------------------------------------------Members Page-------- */
-
+    
 
 
 
