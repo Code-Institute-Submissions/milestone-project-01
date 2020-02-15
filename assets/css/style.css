@@ -69,7 +69,7 @@
 
 /* Margin for text in header boxes */
 .header-text {
-    margin: 0 0 5% 15%;
+    margin: 0 0 5% 10%;
 }
 
 /* Widths to avoid stretching to edge of screen */
@@ -89,7 +89,7 @@ h1.header {
 h3.header {
     color: white;
     font-family: "Oswald", sans-serif;
-    font-size: 7vw;
+    font-size: 5vw;
 }
 
 /* Copy sections */
@@ -197,7 +197,7 @@ h3.header {
 }
 
 .testimonial-image-3 {
-    background-image: url("../images/svetlana-pochatun-DgCaEOnfBdo-unsplash.jpg");
+    background-image: url("../images/szabo-viktor-6zEfniBMs6c-unsplash.jpg");
     background-size: 100% auto;
     background-repeat: no-repeat;
 }
@@ -212,13 +212,6 @@ h3.header {
     display: none;
 }
 
-/* .testimonial-text-1, 
-.testimonial-text-2, 
-.testimonial-text-3, 
-.testimonial-text-4 {
-    font-weight: 100;
-} */
-
 /* ---------------------------------------------Join Us NEW-------- */
 
 .join-rates {
@@ -228,6 +221,12 @@ h3.header {
 .join-hero {
     background-image: url("../images/emarts-emarts-ZCTh4f4mv18-unsplash.jpg");
     background-size: 100% auto;
+    background-attachment: fixed;
+}
+
+.join-intro-image {
+    background-image: url("../images/fabian-frey-fYYAF5WOQU8-unsplash.jpg");
+    background-size: 100%;
 }
 
 .join-image-1 {
@@ -260,7 +259,9 @@ h3.header {
 /* ---------------------------------------------Members NEW-------- */
 
 .members-intro {
-    background-image: url("../images/dylan-gillis-KdeqA3aTnBY-unsplash.jpg")
+    background-image: url("../images/dylan-gillis-KdeqA3aTnBY-unsplash.jpg");
+    background-size: 100% auto;
+    background-attachment: fixed;
 }
 
 .members-booking {
@@ -301,18 +302,21 @@ h3.header {
 .tier-1-hero {
     background-image: url("../images/fabian-frey-fYYAF5WOQU8-unsplash.jpg");
     background-size: 100% auto;
+    background-attachment: fixed;
 }
 
 /* Hero Image on Tier 2 Page */
 .tier-2-hero {
     background-image: url("../images/bench-accounting-FIM--j1B_Rc-unsplash.jpg");
     background-size: 100% auto;
+    background-attachment: fixed;
 }
 
 /* Hero Image on Tier 3 Page */
 .tier-3-hero {
     background-image: url("../images/angelina-litvin-S6wHfOpdGkY-unsplash.jpg");
     background-size: 100% auto;
+    background-attachment: fixed;
 }
 
 .form-col {
@@ -357,36 +361,23 @@ h3.header {
 
 /* ---------------------------------------------Media Queries-------- */
 
+/* Width changes across site */
+@media only screen and (max-width: 991px) {
+    .max-width {
+    max-width: 100%;
+    margin: 0 0;
+    }
+}
+
 /* Homepage */
 
 /* Margins and Padding Changes */
-
 @media only screen and (max-width: 991px) {
-    /* .small-text h5 {
-    padding: 3vh 0;
-    font-family: "Oswald", sans-serif;
-    color: white;
-    font-size: 25px;
-    font-weight: 200;
-    } */
-
    /* Body Copy Margins removed in small screen */
     .large-text h3 {
     color: black;
     margin: 0 0 0 0;
     }
-/* 
-  .home-first-para h3 {
-    margin: 0 0 0 0;
-    font-size: 25px;
-    font-weight: 200;
-    }
-
-  .home-second-para h3 {
-    margin: 0 0 0 0;
-    font-size: 25px;
-    font-weight: 200;
-    } */
 }
 
 /* Testimonial Text and Image Changes */
@@ -402,12 +393,12 @@ h3.header {
     }
 
 /* Small text displaying names which disappears in small screen */
-.small-caption-text h5 {
+    .small-caption-text h5 {
     display: none;
     }
 
 /* John Doe name appearing in small screen */
-.h5-small {
+    .h5-small {
     display: block;
     }
 }
@@ -416,18 +407,26 @@ h3.header {
 @media only screen and (max-width: 991px) {
     .testimonial-text-1 {
     background-image: url("../images/allef-vinicius-P2BoE6tb8ig-unsplash.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
     }
     
     .testimonial-text-2 {
     background-image: url("../images/kenny-luo-xyC3Bx8FXnI-unsplash.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
     }
     
     .testimonial-text-3 {
-    background-image: url("../images/svetlana-pochatun-DgCaEOnfBdo-unsplash.jpg");
+    background-image: url("../images/szabo-viktor-6zEfniBMs6c-unsplash.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
     }
     
     .testimonial-text-4 {
     background-image: url("../images/juliet-furst-tFteUnwflA0-unsplash.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
     }
 
 
@@ -467,8 +466,24 @@ h3.header {
 }
 
 @media only screen and (max-width: 991px) {
-    .max-width {
-    max-width: 100%;
-    margin: 0 0;
-    }
+    .tier-1-hero {
+    background-image: url("../images/fabian-frey-fYYAF5WOQU8-unsplash.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+    }   
+
+    .tier-2-hero {
+    background-image: url("../images/bench-accounting-FIM--j1B_Rc-unsplash.jpg");
+    background-size: cover;
+    background-attachment: fixed;
 }
+
+    .tier-3-hero {
+    background-image: url("../images/angelina-litvin-S6wHfOpdGkY-unsplash.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+}
+
+
