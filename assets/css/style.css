@@ -283,7 +283,6 @@ h3.header {
 /* ---------------------------------------------Signup Pages NEW-------- */
 
 .tier-1-hero {
-    color: red;
     background-image: url("../images/fabian-frey-fYYAF5WOQU8-unsplash.jpg");
     background-size: 100% auto;
 
@@ -294,8 +293,9 @@ h3.header {
 }
 
 .tier-2-hero {
-    color: red;
-    background-image: url("../images/bench-accounting-FIM--j1B_Rc-unsplash.jpg")
+    background-image: url("../images/bench-accounting-FIM--j1B_Rc-unsplash.jpg");
+    background-size: 100% auto;
+
 }
 
 .tier-2-contact-image {
@@ -303,8 +303,8 @@ h3.header {
 }
 
 .tier-3-hero {
-    color: red;
-    background-image: url("../images/alex-simpson-DEIeAfI3hus-unsplash.jpg")
+    background-image: url("../images/angelina-litvin-S6wHfOpdGkY-unsplash.jpg");
+    background-size: 100% auto;
 }
 
 .tier-3-contact-image {
