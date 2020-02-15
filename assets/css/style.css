@@ -64,7 +64,7 @@
 /* ---------------------------------------------Layout features for all pages-------- */
 
 .header-padding {
-    padding-top: 45vh;
+    padding-top: 15vh;
 }
 
 /* Margin for text in header boxes */
@@ -82,14 +82,14 @@
 h1.header {
     color: white;
     font-family: "Oswald", sans-serif;
-    font-size: 90px;
+    font-size: 15vw;
 }
 
 /* Sub-text in headers */
 h3.header {
     color: white;
     font-family: "Oswald", sans-serif;
-    font-size: 40px;
+    font-size: 7vw;
 }
 
 /* Copy sections */
@@ -165,7 +165,8 @@ h3.header {
 
 .welcome-home {
     background-image: url("../images/ioana-cristiana-AH-Z-qq3Mvc-unsplash.jpg");
-    background-size: 100% auto;
+    background-size: 100%;
+    background-attachment: fixed;
 }
 
 .image-1 {
@@ -186,21 +187,29 @@ h3.header {
 .testimonial-image-1 {
     background-image: url("../images/allef-vinicius-P2BoE6tb8ig-unsplash.jpg");
     background-size: 100% auto;
+    background-repeat: no-repeat;
 }
 
 .testimonial-image-2 {
     background-image: url("../images/kenny-luo-xyC3Bx8FXnI-unsplash.jpg");
     background-size: 100% auto;
+    background-repeat: no-repeat;
 }
 
 .testimonial-image-3 {
     background-image: url("../images/svetlana-pochatun-DgCaEOnfBdo-unsplash.jpg");
     background-size: 100% auto;
+    background-repeat: no-repeat;
 }
 
 .testimonial-image-4 {
     background-image: url("../images/juliet-furst-tFteUnwflA0-unsplash.jpg");
     background-size: 100% auto;
+    background-repeat: no-repeat;
+}
+
+.h5-small {
+    display: none;
 }
 
 /* .testimonial-text-1, 
@@ -351,18 +360,22 @@ h3.header {
 /* Homepage */
 
 /* Margins and Padding Changes */
+
 @media only screen and (max-width: 991px) {
-    .small-text h5 {
+    /* .small-text h5 {
     padding: 3vh 0;
     font-family: "Oswald", sans-serif;
     color: white;
     font-size: 25px;
-    font-weight: 300;
-}
+    font-weight: 200;
+    } */
+
+   /* Body Copy Margins removed in small screen */
     .large-text h3 {
     color: black;
+    margin: 0 0 0 0;
     }
-
+/* 
   .home-first-para h3 {
     margin: 0 0 0 0;
     font-size: 25px;
@@ -373,43 +386,50 @@ h3.header {
     margin: 0 0 0 0;
     font-size: 25px;
     font-weight: 200;
-    }
+    } */
 }
 
-/* @media only screen and (min-width: 991px) {
-    .h5-small {
-        display: none;
-    }
-} */
-
-/* Text and Image Changes */
+/* Testimonial Text and Image Changes */
 @media only screen and (max-width: 991px) {
-  .testimonial-text-1 {
-    background-image: url("../images/allef-vinicius-P2BoE6tb8ig-unsplash.jpg");
+/* Text with captions */
+  .small-text h5 {
+    padding: 3vh 0;
+    font-family: "Oswald", sans-serif;
     color: white;
-  }
+    font-size: 25px;
+    font-weight: lighter;
+    margin: 0 10% 0 10%;
+    }
 
-  .testimonial-text, h5 {
-    font-size: 20px;
-    font-weight: bolder;
-  }
+/* Small text displaying names which disappears in small screen */
+.small-caption-text h5 {
+    display: none;
+    }
 
-  .testimonial-text-2 {
-    background-image: url("../images/kenny-luo-xyC3Bx8FXnI-unsplash.jpg");
-    color: white;
-  }
-  
-  .testimonial-text-3 {
-    background-image: url("../images/svetlana-pochatun-DgCaEOnfBdo-unsplash.jpg");
-    color: white;
-  }
-  
-  .testimonial-text-4 {
-    background-image: url("../images/juliet-furst-tFteUnwflA0-unsplash.jpg");
-    color: white;
-  }
-
+/* John Doe name appearing in small screen */
+.h5-small {
+    display: block;
+    }
 }
+
+/* Testimonial Images */
+@media only screen and (max-width: 991px) {
+    .testimonial-text-1 {
+    background-image: url("../images/allef-vinicius-P2BoE6tb8ig-unsplash.jpg");
+    }
+    
+    .testimonial-text-2 {
+    background-image: url("../images/kenny-luo-xyC3Bx8FXnI-unsplash.jpg");
+    }
+    
+    .testimonial-text-3 {
+    background-image: url("../images/svetlana-pochatun-DgCaEOnfBdo-unsplash.jpg");
+    }
+    
+    .testimonial-text-4 {
+    background-image: url("../images/juliet-furst-tFteUnwflA0-unsplash.jpg");
+    }
+
 
 /* Contact Bar */
 @media only screen and (max-width: 991px) {
@@ -446,3 +466,9 @@ h3.header {
     }
 }
 
+@media only screen and (max-width: 991px) {
+    .max-width {
+    max-width: 100%;
+    margin: 0 0;
+    }
+}
