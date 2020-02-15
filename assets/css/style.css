@@ -65,7 +65,7 @@ h1.header {
 h3.header {
     color: white;
     font-family: "Oswald", sans-serif;
-    font-size: 60px;
+    font-size: 40px;
 }
 
 /* Blurb on homepage */
@@ -118,6 +118,15 @@ h3.header {
     font-family: "Oswald", sans-serif;
     color: white;
     font-weight: bold;
+}
+
+/* Buffer Text on Members Page */
+.large-text h2 {
+    padding: 2vh 5vh;
+    font-family: "Oswald", sans-serif;
+    color: black;
+    font-size: 35px;
+    font-weight: 300;
 }
 
 .breathing-space {
@@ -239,20 +248,19 @@ h3.header {
 
 }
 
-/* .members-availability {
-    background-color: #94f0f1;
-} */
+.members-booking {
+    background-color: #ffdc6a;
+}
+
+.buffer-booking {
+    background-color: #ffdc6a;
+}
 
 .members-directory {
-    /* background-image: url("../images/peter-ivey-hansen-xrIJsvytYRw-unsplash.jpg"); */
     background-color: #94f0f1;
 }
 
-.members-booking {
-    background-color: red;
-}
-
-.buffer {
+.buffer-directory {
     background-color: #94f0f1;
 }
 
