@@ -1,5 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Oxygen:100,200,300,400,500,600,700');
 @import url('https://fonts.googleapis.com/css?family=Oswald:100,200,300,400,500,600m,700');
+@import url('https://fonts.googleapis.com/css?family=Allerta+Stencil:100,200,300,400,500,600,700');
+@import url('https://fonts.googleapis.com/css?family=Maven+Pro::100,200,300,400,500,600,700');
 
 /* ---------------------------------------------Text Margins-------- */
 
@@ -17,23 +19,19 @@
 /* ---------------------------------------------Navigation Bar-------- */
 
 .logo {
-    font-family: "Oxygen", sans-serif;
-    font-size: 50px;
+    font-family: "Allerta Stencil", sans-serif;
+    font-size: 4vw;
     font-weight: 700;
     letter-spacing: 3px;
     color: black;
 }
 
 .nav-link {
-    color: black;
-    font-size: 20px;
-    font-family: "Oswald", sans-serif;
+    color: white;
+    font-size: 2vw;
+    font-family: "Maven Pro", sans-serif;
     font-weight: 300;
     letter-spacing: 3px;
-}
-
-.header-bar {
-    background-color: white;
 }
 
 /* ---------------------------------------------Footer-------- */
@@ -48,7 +46,7 @@
 
 .btn-dark {
     background-color: #fff;
-    font-family: "Oswald", sans-serif;
+    font-family: "Maven Pro", sans-serif;
     color: #000;
     font-weight: 400;
 }
@@ -83,21 +81,21 @@
 /* Hero-text in headers */
 h1.header {
     color: white;
-    font-family: "Oswald", sans-serif;
+    font-family: "Maven Pro", sans-serif;
     font-size: 15vw;
 }
 
 /* Sub-text in headers */
 h3.header {
     color: white;
-    font-family: "Oswald", sans-serif;
+    font-family: "Maven Pro", sans-serif;
     font-size: 5vw;
 }
 
 /* Copy sections */
 .large-text h3 {
     padding: 2vh 5vh;
-    font-family: "Oswald", sans-serif;
+    font-family: "Maven Pro", sans-serif;
     color: black;
     font-size: 25px;
     font-weight: 300;
@@ -106,7 +104,7 @@ h3.header {
 /* Larger Copy Text on Members Page */
 .large-text h2 {
     padding: 2vh 5vh;
-    font-family: "Oswald", sans-serif;
+    font-family: "Maven Pro", sans-serif;
     color: black;
     font-size: 30px;
     font-weight: 300;
@@ -115,7 +113,7 @@ h3.header {
 /* Used on the contact page */
 .large-text-white h2 {
     padding: 1vh 1vh;
-    font-family: "Oswald", sans-serif;
+    font-family: "Maven Pro", sans-serif;
     color: white;
     font-size: 30px;
     font-weight: bolder;
@@ -124,7 +122,7 @@ h3.header {
 /* Testimonials */
 .small-text h5 {
     padding: 3vh 0;
-    font-family: "Oswald", sans-serif;
+    font-family: "Maven Pro", sans-serif;
     color: black;
     font-size: 20px;
     font-weight: 200;
@@ -132,7 +130,7 @@ h3.header {
 
 /* Bar above the footer */
 .contact-bar h2 {
-    font-family: "Oswald", sans-serif;
+    font-family: "Maven Pro", sans-serif;
     font-size: 40px;
     height: 20vh;
     color: black;
@@ -141,7 +139,7 @@ h3.header {
 /* Tier headings*/
 .small-text h3 {
     padding: 3vh 0;
-    font-family: "Oswald", sans-serif;
+    font-family: "Maven Pro", sans-serif;
     color:black;
     font-weight: 200;
     font-size: 30px;
@@ -150,7 +148,7 @@ h3.header {
 
 /* List Items*/
 .small-text li {
-    font-family: "Oswald", sans-serif;
+    font-family: "Maven Pro", sans-serif;
     color: black;
     font-weight: 200;
     font-size: 20px;
@@ -159,7 +157,7 @@ h3.header {
 /* Names in testimonials*/
 .small-caption-text h5 {
     padding: 3vh 0;
-    font-family: "Oswald", sans-serif;
+    font-family: "Maven Pro", sans-serif;
     color: white;
     font-weight: bold;
 }
@@ -261,13 +259,13 @@ h3.header {
 
 .join-hero-text {
     padding: 3vh 3vh;
-    font-family: "Oswald", sans-serif;
+    font-family: "Maven Pro", sans-serif;
     color:black;
     font-weight: 300;
     background-color: #f9f0e0;
 }
 
-/* ---------------------------------------------Members NEW-------- */
+/* ---------------------------------------------Members-------- */
 
 .members-intro {
     background-image: url("../images/dylan-gillis-KdeqA3aTnBY-unsplash.jpg");
@@ -292,7 +290,7 @@ h3.header {
 }
 
 .members-directory, .members-booking label {
-    font-family: "oswald", sans-serif;
+    font-family: "Maven Pro", sans-serif;
     font-size: 25px;
     color: white;
     font-weight: 400;
@@ -300,7 +298,7 @@ h3.header {
 }
 
 .application-form label {
-    font-family: "oswald", sans-serif;
+    font-family: "Maven Pro", sans-serif;
     font-size: 25px;
     color: black;
     font-weight: 400;
@@ -396,7 +394,7 @@ h3.header {
 /* Text with captions */
   .small-text h5 {
     padding: 3vh 0;
-    font-family: "Oswald", sans-serif;
+    font-family: "Maven Pro", sans-serif;
     color: white;
     font-size: 25px;
     font-weight: lighter;
@@ -418,25 +416,25 @@ h3.header {
 @media only screen and (max-width: 991px) {
     .testimonial-text-1 {
     background-image: url("../images/allef-vinicius-P2BoE6tb8ig-unsplash.jpg");
-    background-size: contain;
+    background-size: cover;
     background-repeat: no-repeat;
     }
     
     .testimonial-text-2 {
     background-image: url("../images/kenny-luo-xyC3Bx8FXnI-unsplash.jpg");
-    background-size: contain;
+    background-size: cover;
     background-repeat: no-repeat;
     }
     
     .testimonial-text-3 {
     background-image: url("../images/szabo-viktor-6zEfniBMs6c-unsplash.jpg");
-    background-size: contain;
+    background-size: cover;
     background-repeat: no-repeat;
     }
     
     .testimonial-text-4 {
     background-image: url("../images/juliet-furst-tFteUnwflA0-unsplash.jpg");
-    background-size: contain;
+    background-size: cover;
     background-repeat: no-repeat;
     }
 
@@ -449,13 +447,12 @@ h3.header {
 
     /* Text in bar above the footer */
     .contact-bar h2 {
-    font-family: "Oswald", sans-serif;
+    font-family: "Maven Pro", sans-serif;
     font-size: 30px;
     color: white;
     margin: 5% 0 0 15%;
     }
 }
-
 
 /* Join Page */
 @media only screen and (max-width: 991px) {
@@ -474,7 +471,23 @@ h3.header {
     .tier-text-4 {
         background-color: #f2b1d8;
     }
+
+    .join-hero {
+    background-image: url("../images/emarts-emarts-ZCTh4f4mv18-unsplash.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+    }
 }
+
+/* Members Page */
+@media only screen and (max-width: 991px) {
+    .members-intro {
+    background-image: url("../images/dylan-gillis-KdeqA3aTnBY-unsplash.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+    }
+}
+
 
 @media only screen and (max-width: 991px) {
     .tier-1-hero {
