@@ -248,11 +248,15 @@ h3.header {
     background-color: #94f0f1;
 }
 
+.members-booking {
+    background-color: red;
+}
+
 .buffer {
     background-color: #94f0f1;
 }
 
-.members-directory label {
+.members-directory, .members-booking label {
     font-family: "oswald", sans-serif;
     font-size: 25px;
     color: white;
