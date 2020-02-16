@@ -197,14 +197,14 @@ h3.header {
 
 .image-1 {
     background-image: url("../images/chase-wilson-Rp5A-XUb0nE-unsplash.jpg");
-    background-size: 100% auto;
-    /* background-attachment: fixed; */
+    background-size: auto 100%;
+    background-repeat: no-repeat; 
 }
 
 .image-2 {
     background-image: url("../images/annie-spratt-FSFfEQkd1sc-unsplash.jpg");
     background-size: 100% auto;
-    /* background-attachment: fixed; */
+    background-repeat: no-repeat; 
 }
 
 .image-3 {
@@ -254,7 +254,8 @@ h3.header {
 
 .join-intro-image {
     background-image: url("../images/fabian-frey-fYYAF5WOQU8-unsplash.jpg");
-    background-size: 100%;
+    background-size: 100% auto;
+    background-repeat: no-repeat;
 }
 
 .join-image-1 {
