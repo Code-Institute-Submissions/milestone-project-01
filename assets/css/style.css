@@ -36,19 +36,25 @@
 
 /* ---------------------------------------------Footer-------- */
 
-.btn {
-    margin: auto;
-    color: #ffffff;
-    border: none;
-    font-size: 18px;
+/* Email Button */
+
+/* Instagram and LinkedIn Buttons */
+.btn-outline-dark {
     font-weight: 700;
+    font-size: 3vh;
+    border: none;
+    color: #ffffff;
+    margin: auto;
 }
 
-.btn-dark {
-    background-color: #fff;
-    font-family: "Maven Pro", sans-serif;
-    color: #000;
-    font-weight: 400;
+/* Email Button */
+.email-button {
+    margin: auto;
+    color: #000000;
+    font-family: "Allerta Stencil", sans-serif;
+    background-color: white;
+    font-size: 2vh;
+    font-weight: 500;
 }
 
 .footer-background {
@@ -82,7 +88,7 @@
 h1.header {
     color: white;
     font-family: "Maven Pro", sans-serif;
-    font-size: 15vw;
+    font-size: 10vw;
 }
 
 /* Sub-text in headers */
@@ -121,7 +127,7 @@ h3.header {
 
 /* Testimonials */
 .small-text h5 {
-    padding: 3vh 0;
+    padding: 1.5vh 0;
     font-family: "Maven Pro", sans-serif;
     color: black;
     font-size: 20px;
@@ -170,6 +176,17 @@ h3.header {
     background-color: white;   
 }
 
+/* Standard Submit Button */
+.submit-button {
+    font-size: 20px;
+    color: white;
+    background-color: #000;
+    font-family: "Allerta Stencil", sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    margin: 0 0 2vh 0;
+}
+
 /* ---------------------------------------------Homepage-------- */
 
 .welcome-home {
@@ -181,11 +198,13 @@ h3.header {
 .image-1 {
     background-image: url("../images/chase-wilson-Rp5A-XUb0nE-unsplash.jpg");
     background-size: 100% auto;
+    /* background-attachment: fixed; */
 }
 
 .image-2 {
     background-image: url("../images/annie-spratt-FSFfEQkd1sc-unsplash.jpg");
     background-size: 100% auto;
+    /* background-attachment: fixed; */
 }
 
 .image-3 {
@@ -221,7 +240,7 @@ h3.header {
     display: none;
 }
 
-/* ---------------------------------------------Join Us NEW-------- */
+/* ---------------------------------------------Join Us-------- */
 
 .join-rates {
     background-color: #8bf0ba;
@@ -252,11 +271,6 @@ h3.header {
     background-color: #ffdc6a;
 }
 
-.btn-dark-join {
-    font-size: 20px;
-    background-color: #000;
-}
-
 .join-hero-text {
     padding: 3vh 3vh;
     font-family: "Maven Pro", sans-serif;
@@ -274,11 +288,11 @@ h3.header {
 }
 
 .members-booking {
-    background-color: #ffdc6a;
+    background-color: #8bf0ba;
 }
 
 .buffer-booking {
-    background-color: #ffdc6a;
+    background-color: #8bf0ba;
 }
 
 .members-directory {
@@ -305,25 +319,11 @@ h3.header {
     padding-top: 10px;
 }
 
-/* ---------------------------------------------Signup Pages-------- */
+/* ---------------------------------------------Apply Page-------- */
 
-/* Hero Image on Tier 1 Page */
+/* Hero Image on Application Page */
 .tier-1-hero {
-    background-image: url("../images/fabian-frey-fYYAF5WOQU8-unsplash.jpg");
-    background-size: 100% auto;
-    background-attachment: fixed;
-}
-
-/* Hero Image on Tier 2 Page */
-.tier-2-hero {
-    background-image: url("../images/bench-accounting-FIM--j1B_Rc-unsplash.jpg");
-    background-size: 100% auto;
-    background-attachment: fixed;
-}
-
-/* Hero Image on Tier 3 Page */
-.tier-3-hero {
-    background-image: url("../images/angelina-litvin-S6wHfOpdGkY-unsplash.jpg");
+    background-image: url("../images/daniel-chekalov-OxU08SFhPbI-unsplash.jpg");
     background-size: 100% auto;
     background-attachment: fixed;
 }
