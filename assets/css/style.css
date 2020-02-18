@@ -360,12 +360,24 @@ h3.header {
     padding: 100px 0;
 }
 
+.contact-info a {
+    color: white;
+}
+
 .contact-intro {
     background-image: url("../images/plqml-MuGkTlj--lg-unsplash.jpg");
     background-size: 100% auto;
     background-attachment: fixed;
 }
 
+.contact-button {
+    margin: auto;
+    color: black;
+    font-family: "Allerta Stencil", sans-serif;
+    background-color: #f2b1d8;
+    font-size: 2vh;
+    font-weight: 500;
+}
 /* ---------------------------------------------Media Queries-------- */
 
 /* Width changes across site */
@@ -497,17 +509,6 @@ h3.header {
     background-image: url("../images/emarts-emarts-ZCTh4f4mv18-unsplash.jpg");
     background-size: cover;
     background-attachment: fixed;
-    }
-}
-
-/* Changing the order of the intro image and intro paragraph */
-@media only screen and (max-width: 991px) {
-    .home-intro-para {
-        order: 1;
-    }
-
-    .join-intro-image {
-        order: 2;
     }
 }
 
