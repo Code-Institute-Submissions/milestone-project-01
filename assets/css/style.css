@@ -5,6 +5,9 @@
 
 /* ---------------------------------------------Text Margins-------- */
 
+.col-lg-6 {
+    padding: 0 0 0 0;
+}
 
 /* First paragraph on homepage */
 .home-first-para h3 {
@@ -173,7 +176,7 @@ h3.header {
 
 /* Dividing Bar */
 .breathing-space {
-    height: 3vh;
+    height: 5vh;
     margin: none;
     border: none;
     background-color: white;   
@@ -204,21 +207,7 @@ h3.header {
 
 .image-2 {
     width: 100%;
-
 }
-/* .image-1 {
-    background-image: url("../images/chase-wilson-Rp5A-XUb0nE-unsplash.jpg");
-    background-size: 100% auto;
-    background-repeat: no-repeat; 
-    background-position: center;
-} */
-
-/* .image-2 {
-    background-image: url("../images/annie-spratt-FSFfEQkd1sc-unsplash.jpg");
-    background-size: 100% auto;
-    background-repeat: no-repeat; 
-    background-position: center;    
-} */
 
 .image-3 {
     background-image: url("../images/rhondak-native-florida-folk-artist-_Yc7OtfFn-0-unsplash.jpg");
