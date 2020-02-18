@@ -9,16 +9,8 @@
     padding: 0 0 0 0;
 }
 
-/* First paragraph on homepage */
-.home-first-para h3 {
-    margin: 0 0 0 20%;
-}
-
-.temptext {
-    background-color: red;
-}
-/* Second paragraph on homepage */
-.home-second-para h3 {
+/* Intro paragraph on homepage */
+.home-intro-para h3 {
     margin: 0 20% 0 0;
 }
 
@@ -73,6 +65,7 @@
 
 /* ---------------------------------------------Layout features for all pages-------- */
 
+
 .header-padding {
     padding-top: 15vh;
 }
@@ -109,7 +102,7 @@ h3.header {
     padding: 2vh 5vh;
     font-family: "Maven Pro", sans-serif;
     color: black;
-    font-size: 25px;
+    font-size: 2vw;
     font-weight: 300;
 }
 
@@ -176,7 +169,7 @@ h3.header {
 
 /* Dividing Bar */
 .breathing-space {
-    height: 5vh;
+    height: 3vh;
     margin: none;
     border: none;
     background-color: white;   
@@ -207,6 +200,10 @@ h3.header {
 
 .image-2 {
     width: 100%;
+}
+
+.my-auto {
+    padding: 0 0 0 0;
 }
 
 .image-3 {
@@ -255,9 +252,7 @@ h3.header {
 }
 
 .join-intro-image {
-    background-image: url("../images/fabian-frey-fYYAF5WOQU8-unsplash.jpg");
-    background-size: 100% auto;
-    background-repeat: no-repeat;
+    width: 100%;
 }
 
 .join-image-1 {
@@ -381,26 +376,49 @@ h3.header {
     }
 }
 
+/* Navbar Logo & Menu Items Size Change with smaller screen */
+@media only screen and (max-width: 991px) {
+    .logo {
+        font-size: 4vh;
+    }
+    .nav-link {
+        font-size: 20px;
+    }
+}
+
+/* Text in hero banners on every page */
+@media only screen and (max-width: 767px) {
+    .header-text h1.header {
+        font-size: 8vh;
+    }
+
+    .header-text h3.header {
+        font-size: 8vw;
+    }
+}
+
+
 /* Homepage */
 
 /* Margins and Padding Changes */
-@media only screen and (max-width: 991px) {
+@media only screen and (max-width: 767px) {
    /* Body Copy Margins removed in small screen */
     .large-text h3 {
     color: black;
     margin: 0 0 0 0;
+    font-size: 18px;
     }
 }
 
 /* Testimonial Text and Image Changes */
-@media only screen and (max-width: 991px) {
+@media only screen and (max-width: 767px) {
 /* Text with captions */
   .small-text h5 {
     padding: 3vh 0;
     font-family: "Maven Pro", sans-serif;
     color: white;
-    font-size: 25px;
-    font-weight: lighter;
+    font-size: 18px;
+    font-weight: bold;
     margin: 0 10% 0 10%;
     }
 
@@ -416,7 +434,7 @@ h3.header {
 }
 
 /* Testimonial Images */
-@media only screen and (max-width: 991px) {
+@media only screen and (max-width: 767px) {
     .testimonial-text-1 {
     background-image: url("../images/allef-vinicius-P2BoE6tb8ig-unsplash.jpg");
     background-size: cover;
@@ -481,6 +499,18 @@ h3.header {
     background-attachment: fixed;
     }
 }
+
+/* Changing the order of the intro image and intro paragraph */
+@media only screen and (max-width: 991px) {
+    .home-intro-para {
+        order: 1;
+    }
+
+    .join-intro-image {
+        order: 2;
+    }
+}
+
 
 /* Members Page */
 @media only screen and (max-width: 991px) {
