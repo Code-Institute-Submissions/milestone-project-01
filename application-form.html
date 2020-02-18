@@ -57,19 +57,19 @@
         </div>
 		<div class="row form-col">
 			<div class="col-12 form-col application-form max-width">
-				<form action="/action_page.php" method="get">
+				<form action="/action_page.php" method="post">
 					<div class="form-check-inline">
 						<div class="form-check">
-							<input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios1" value="option1">
-							<label class="form-check-label" for="exampleRadios1">Tier 1 Membership</label>
+							<input class="form-check-input" type="radio" name="exampleRadios" id="FlexiMembership" value="Flexi">
+							<label class="form-check-label" for="FlexiMembership">Flexi Membership</label>
 						</div>
 						<div class="form-check disabled">
-							<input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios2" value="option2">
-							<label class="form-check-label" for="exampleRadios2">Tier 2 Membership</label>
+							<input class="form-check-input" type="radio" name="exampleRadios" id="WeekenderMembership" value="Weekender">
+							<label class="form-check-label" for="WeekenderMembership">Weekender Membership</label>
 						</div>
 						<div class="form-check disabled">
-							<input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios3" value="option3">
-							<label class="form-check-label" for="exampleRadios3">Tier 3 Membership</label>
+							<input class="form-check-input" type="radio" name="exampleRadios" id="ResidentMembership" value="Resident">
+							<label class="form-check-label" for="ResidentMembership">Resident Membership</label>
 						</div>
 					</div>
 					<div class="form-row">
@@ -113,7 +113,7 @@
                             <option>Other</option>
                         </select>
                     </div>
-                    <button type="submit" class="btn btn-dark btn-lg submit-button" data-toggle="modal" data-target="#exampleModal">Apply for membership</button>
+                    <input type="submit" class="btn btn-dark btn-lg submit-button" data-toggle="modal" data-target="#exampleModal" value="Apply for membership">
                     <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
                         <div class="modal-dialog" role="document">
                             <div class="modal-content">
@@ -127,7 +127,7 @@
                                 </div>
                                 <div class="modal-footer">
                                     <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-                                    <button type="button" class="btn btn-primary">Save changes</button>
+                                    <a href=index.html><button type="button" class="btn btn-primary">Back to homepage</button></a>
                                 </div>
                             </div>
                         </div>
