@@ -30,8 +30,6 @@
 
 /* ---------------------------------------------Footer-------- */
 
-/* Email Button */
-
 /* Instagram and LinkedIn Buttons */
 .btn-outline-dark {
     font-weight: 700;
@@ -59,14 +57,14 @@
     border: none;
 }
 
-/* ---------------------------------------------Layout features for all pages-------- */
+/* ---------------------------------------------Features for all pages-------- */
 
-
+/* Space in banner under nav bar */
 .header-padding {
     padding-top: 15vh;
 }
 
-/* Margin for text in header boxes */
+/* Margin positioning text in header boxes */
 .header-text {
     margin: 0 0 5% 10%;
 }
@@ -77,7 +75,26 @@
     margin: 0 10%;
 }
 
-/* ---------------------------------------------Fonts for all pages-------- */
+/* Dividing Bar */
+.breathing-space {
+    height: 3vh;
+    margin: 0 0 0 0;
+    border: none;
+    background-color: white;   
+}
+
+/* Standard Submit Button */
+.submit-button {
+    font-size: 20px;
+    color: white;
+    background-color: #000;
+    font-family: "Allerta Stencil", sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    margin: 0 0 2vh 0;
+}
+
+/* ---------------------------------------------Fonts-------- */
 
 /* Hero-text in headers */
 h1.header {
@@ -129,14 +146,6 @@ h3.header {
     font-weight: 200;
 }
 
-/* Bar above the footer */
-.contact-bar h2 {
-    font-family: "Maven Pro", sans-serif;
-    font-size: 40px;
-    height: 20vh;
-    color: black;
-}
-
 /* Tier headings*/
 .small-text h3 {
     padding: 3vh 0;
@@ -163,27 +172,9 @@ h3.header {
     font-weight: bold;
 }
 
-/* Dividing Bar */
-.breathing-space {
-    height: 3vh;
-    margin: none;
-    border: none;
-    background-color: white;   
-}
-
-/* Standard Submit Button */
-.submit-button {
-    font-size: 20px;
-    color: white;
-    background-color: #000;
-    font-family: "Allerta Stencil", sans-serif;
-    font-weight: 400;
-    font-size: 20px;
-    margin: 0 0 2vh 0;
-}
-
 /* ---------------------------------------------Homepage-------- */
 
+/* Opening Image */
 .welcome-home {
     background-image: url("../images/ioana-cristiana-AH-Z-qq3Mvc-unsplash.jpg");
     background-size: 100%;
@@ -240,15 +231,12 @@ h3.header {
     background-repeat: no-repeat;
 }
 
+/* Names, which only appear in small screen */
 .h5-small {
     display: none;
 }
 
 /* ---------------------------------------------Join Us Page-------- */
-
-.join-rates {
-    background-color: #8bf0ba;
-}
 
 .join-hero {
     background-image: url("../images/emarts-emarts-ZCTh4f4mv18-unsplash.jpg");
@@ -273,8 +261,6 @@ h3.header {
 .join-body-para {
     padding: 0 5% 0 0;
 }
-
-
 
 /* ---------------------------------------------Members-------- */
 
@@ -308,18 +294,11 @@ h3.header {
     padding-top: 10px;
 }
 
-/* Text on members page form and application form */
-.application-form label {
-    font-family: "Maven Pro", sans-serif;
-    font-size: 20px;
-    color: black;
-    font-weight: 400;
-}
-
 .member-form {
     padding-left: 3vw;
     padding-right: 3vw;
 }
+
 /* ---------------------------------------------Apply Page-------- */
 
 /* Hero Image on Application Page */
@@ -353,12 +332,6 @@ h3.header {
     color: grey;
 }
 
-/* .max-width .join-row-stretch {
-    max-width: 80%;
-    margin: 0 0;
-    }
-} */
-
 /* ---------------------------------------------Contact Page-------- */
 
 .contact-map {
@@ -369,20 +342,30 @@ h3.header {
     height: 100%;
     width: 100%;
     border: none;
-    padding: none;
+    padding: 0 0 0 0;
 }
 
+/* Contact information box */
 .contact-info {
     background-image: url("../images/khara-woods-KR84RpMCb0w-unsplash.jpg");
-    /* background-blend-mode: darken; */
     background-size: 100% auto;
     color: black;
     text-align: left;
     padding: 100px 0;
 }
 
-.contact-info a {
+/* Button text inside contact information box */
+/* .contact-info a {
     color: white;
+} */
+
+/* Button inside contact information box */
+.contact-button {
+    margin: auto;
+    color: white;
+    font-family: "Maven Pro", sans-serif;
+    font-size: 4vh;
+    font-weight: 700;
 }
 
 .contact-intro {
@@ -391,18 +374,12 @@ h3.header {
     background-attachment: fixed;
 }
 
-.contact-button {
-    margin: auto;
-    color: black;
-    font-family: "Allerta Stencil", sans-serif;
-    background-color: #f2b1d8;
-    font-size: 2vh;
-    font-weight: 500;
-}
-/* ---------------------------------------------Media Queries-------- */
 
-                                                /* General */
-/* Width changes across site */
+/* --------------------------------------------------------------Media Queries-------- */
+
+/* ---------------------------------------------General-------- */
+
+/* Row width changes across site */
 @media only screen and (max-width: 991px) {
     .max-width {
     max-width: 100%;
@@ -420,8 +397,8 @@ h3.header {
     }
 }
 
-/* Text in hero banners on every page */
-@media only screen and (max-width: 767px) {
+/* Text in hero banners */
+@media only screen and (max-width: 768px) {
     .header-text h1.header {
         font-size: 9vh;
     }
@@ -431,10 +408,10 @@ h3.header {
     }
 }
 
-                                            /* Join & Application Pages */
+/* ---------------------------------------------Join & Application Pages-------- */
 
+/* Background Colours changing in smaller screens */
 @media only screen and (max-width: 991px) {
-    /* Background Colours changing in smaller screens */
     .tier-text-1 {
         background-color: #ffdc6a;
     }
@@ -457,12 +434,15 @@ h3.header {
     background-attachment: fixed;
     }
 }
+
+/* Paragraph with benefits copy on join page */
 @media only screen and (max-width: 991px) {
     .join-body-para {
         padding: 0 5vw 0 5vw;
     }
 }
 
+/* Text with membership names */
 @media only screen and (max-width: 425px) {
     .application-form label {
         font-size: 3vh;
@@ -470,12 +450,10 @@ h3.header {
 }
 
 
+/* ---------------------------------------------Homepage-------- */
 
-                                            /* Homepage */
-
-/* Margins and Padding Changes */
-@media only screen and (max-width: 767px) {
 /* Body Copy Margins removed in small screen */
+@media only screen and (max-width: 768px) {
     .large-text h3 {
     color: black;
     margin: 0 0 0 0;
@@ -484,8 +462,9 @@ h3.header {
 }
 
 /* Testimonial Text and Image Changes */
-@media only screen and (max-width: 767px) {
-/* Text with captions */
+
+/* Testimonial captions */
+@media only screen and (max-width: 768px) {
   .small-text h5 {
     padding: 3vh 0;
     font-family: "Maven Pro", sans-serif;
@@ -507,7 +486,7 @@ h3.header {
 }
 
 /* Testimonial Images */
-@media only screen and (max-width: 767px) {
+@media only screen and (max-width: 768px) {
     .testimonial-text-1 {
     background-image: url("../images/allef-vinicius-P2BoE6tb8ig-unsplash.jpg");
     background-size: cover;
@@ -533,33 +512,16 @@ h3.header {
     }
 
 
-/* Contact Bar */
-@media only screen and (max-width: 991px) {
-    .homepage-contact-bar {
-    background-image: url("../images/rhondak-native-florida-folk-artist-_Yc7OtfFn-0-unsplash.jpg");
-    }
-
-    /* Text in bar above the footer */
-    .contact-bar h2 {
-    font-family: "Maven Pro", sans-serif;
-    font-size: 30px;
-    color: white;
-    margin: 5% 0 0 15%;
-    }
-}
-
-/* Intro Image Smaller on small screen */
+/* Intro Image reduced size on small screen */
 @media only screen and (max-width: 991px) {
     .join-intro-image {
         /* height: 60vh; */
-        width: 100%
+        width: 100%;
         object-fit: contain;
     }
 }
 
-
-
-                                                /* Members Page */
+/* ---------------------------------------------Members Page-------- */
 
 @media only screen and (max-width: 991px) {
     .tier-1-hero {
@@ -569,7 +531,7 @@ h3.header {
     }   
 }
 
-/* Contact Page */
+/* ---------------------------------------------Contact Page-------- */
 
 /* Contact details background */
 @media only screen and (max-width: 991px) {
@@ -584,4 +546,3 @@ h3.header {
         height: 45vh;
         padding: 0 0 3vh 0;
     }
-
