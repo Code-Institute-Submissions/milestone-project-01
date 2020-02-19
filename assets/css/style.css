@@ -276,17 +276,17 @@ h3.header {
 /* ---------------------------------------------Members-------- */
 
 .members-intro {
-    background-image: url("../images/dylan-gillis-KdeqA3aTnBY-unsplash.jpg");
-    background-size: 100% auto;
+    background-image: url("../images/szabo-viktor-6zEfniBMs6c-unsplash.jpg");
+    background-size: cover;
     background-attachment: fixed;
 }
 
 .members-booking {
-    background-color: #8bf0ba;
+    background-color: #f2b1d8;
 }
 
 .buffer-booking {
-    background-color: #8bf0ba;
+    background-color: #f2b1d8;
 }
 
 .members-directory {
@@ -337,6 +337,17 @@ h3.header {
 
 .form-check {
     padding: 0 5vw 0 0;
+    margin: 0 0 0 40px;
+}
+
+/* .tier-selector .form-check-label {
+    padding: 0 0 10px 0;
+} */
+
+.description-text p {
+    font-family: "Maven Pro", sans-serif;
+    font-size: 15px;
+    color: grey;
 }
 
 /* ---------------------------------------------Contact Page-------- */
@@ -354,6 +365,7 @@ h3.header {
 
 .contact-info {
     background-image: url("../images/khara-woods-KR84RpMCb0w-unsplash.jpg");
+    /* background-blend-mode: darken; */
     background-size: 100% auto;
     color: black;
     text-align: left;
@@ -538,14 +550,6 @@ h3.header {
 
 
                                                 /* Members Page */
-@media only screen and (max-width: 991px) {
-    .members-intro {
-    background-image: url("../images/dylan-gillis-KdeqA3aTnBY-unsplash.jpg");
-    background-size: cover;
-    background-attachment: fixed;
-    }
-}
-
 
 @media only screen and (max-width: 991px) {
     .tier-1-hero {

@@ -5,7 +5,8 @@
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<meta http-equiv="X-UA-Compatible" content="ie=edge">
-	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/css/all.min.css" integrity="sha256-mmgLkCYLUQbXn0B1SRqzHar6dCnv9oZFPEC1g1cwlkk=" crossorigin="anonymous" />
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/css/all.min.css"
+		integrity="sha256-mmgLkCYLUQbXn0B1SRqzHar6dCnv9oZFPEC1g1cwlkk=" crossorigin="anonymous" />
 	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
 		integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 	<link rel="stylesheet" href="assets/css/style.css">
@@ -26,12 +27,13 @@
 									<a class="nav-link" href="index.html">home</a>
 								</li>
 								<li class="nav-item active">
-									<a class="nav-link" href="join.html">join us<span class="sr-only">(current)</span></a>
+									<a class="nav-link" href="join.html">join
+										us<span class="sr-only">(current)</span></a>
 								</li>
 								<li class="nav-item">
 									<a class="nav-link" href="members.html">members</a>
 								</li>
-                                <li class="nav-item">
+								<li class="nav-item">
 									<a class="nav-link" href="contact.html">contact</a>
 								</li>
 							</ul>
@@ -45,54 +47,71 @@
 	<section class="container-fluid">
 		<div class="row">
 			<div class="col-12 header-padding tier-1-hero">
-                <div class="header-text">
-                    <h1 class="header">becoming a member is easy!</h1>
-                        <h3 class="header">Just fill in the application below and we'll get back to you with some next steps...</h3>
-                </div>
-            </div>
+				<div class="header-text">
+					<h1 class="header">becoming a member is easy!</h1>
+					<h3 class="header">Just fill in the application below and we'll get back to you with some next
+						steps...</h3>
+				</div>
+			</div>
 		</div>
-        <div class="row">
-            <div class="col-12 breathing-space">
-            </div>
-        </div>
+		<div class="row">
+			<div class="col-12 breathing-space">
+			</div>
+		</div>
 		<div class="row form-col">
 			<div class="col-12 form-col application-form max-width">
 				<form action="/action_page.php" method="post">
-					<div class="form-row">
+					<div class="form-check tier-selector">
 						<div class="form-check">
 							<input class="form-check-input" type="radio" name="exampleRadios" id="FlexiMembership" value="Flexi">
 							<label class="form-check-label" for="FlexiMembership">Flexi Membership</label>
+                                <div class="description-text">
+                                    <p>Facilities available 7 days a week</p>
+                                </div>
 						</div>
 						<div class="form-check">
 							<input class="form-check-input" type="radio" name="exampleRadios" id="WeekenderMembership" value="Weekender">
 							<label class="form-check-label" for="WeekenderMembership">Weekender Membership</label>
+                                <div class="description-text">
+                                    <p>Facilities available on weekends only.</p>
+                                </div>
 						</div>
 						<div class="form-check">
 							<input class="form-check-input" type="radio" name="exampleRadios" id="ResidentMembership" value="Resident">
 							<label class="form-check-label" for="ResidentMembership">Resident Membership</label>
+                            <div class="description-text">
+                                    <p>Part of the furniture.</p>
+                                </div>
+						</div>
+                        <div>
+                        <a href="join.html" target="_blank" class="btn btn-dark submit-button back-button">Back to membership rates</a>
+                        </div>
+					</div>
+					<div class="row">
+						<div class="col-12 breathing-space">
 						</div>
 					</div>
 					<div class="form-row">
 						<div class="col">
-                            <label for="FirstName">First Name</label>
+							<label for="FirstName">First Name</label>
 							<input type="text" class="form-control" id="FirstName" placeholder="First Name" required>
                         </div>
-                        <div class="col">
-                            <label for="LastName">Last</label>
-                            <input type="text" class="form-control" id="LastName" placeholder="Second Name" required>
+							<div class="col">
+								<label for="LastName">Last</label>
+								<input type="text" class="form-control" id="LastName" placeholder="Second Name" required>
                         </div>
-					</div>
-                    <div class="form-group">
-                        <label for="InputEmail">Email address</label>
-                        <input type="email" class="form-control" id="InputEmail" aria-describedby="InputEmail" placeholder="Enter email" required>
+							</div>
+							<div class="form-group">
+								<label for="InputEmail">Email address</label>
+								<input type="email" class="form-control" id="InputEmail" aria-describedby="InputEmail" placeholder="Enter email" required>
                     </div>
-                    <div class="form-group">
-                        <label for="PortfolioLink">A link to your portfolio</label>
-                        <input type="text" class="form-control" id="PortfolioLink" aria-describedby="PortfolioLink" placeholder="A link to your portfolio" required>
+								<div class="form-group">
+									<label for="PortfolioLink">A link to your portfolio</label>
+									<input type="text" class="form-control" id="PortfolioLink" aria-describedby="PortfolioLink" placeholder="A link to your portfolio" required>
                     </div>
-                    <div class="form-group">
-                        <label for="SpecialistArea">Specialist Area</label>
-                        <select multiple class="form-control" id="SpecialistArea">
+									<div class="form-group">
+										<label for="SpecialistArea">Specialist Area</label>
+										<select multiple class="form-control" id="SpecialistArea">
                             <option>Accessories</option>
                             <option>Ceramics</option>
                             <option>Digital</option>
@@ -112,26 +131,29 @@
                             <option>Typography</option>
                             <option>Other</option>
                         </select>
-                    </div>
-                    <input type="submit" class="btn btn-dark btn-lg submit-button" data-toggle="modal" data-target="#exampleModal" value="Apply for membership">
-                    <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
-                        <div class="modal-dialog" role="document">
-                            <div class="modal-content">
-                                <div class="modal-header">
-                                    <h5 class="modal-title" id="exampleModalLabel">Application sent!</h5>
-                                        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span>
+									</div>
+									<input type="submit" class="btn btn-dark btn-lg submit-button" data-toggle="modal" data-target="#exampleModal" value="Send application">
+									<div class="modal fade" id="exampleModal" tabindex="-1" role="dialog"
+										aria-labelledby="exampleModalLabel" aria-hidden="true">
+										<div class="modal-dialog" role="document">
+											<div class="modal-content">
+												<div class="modal-header">
+													<h5 class="modal-title" id="exampleModalLabel">Application sent!
+													</h5>
+													<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span>
                                         </button>
-                                </div>
-                                <div class="modal-body">
-                                    We will be in touch soon :D
-                                </div>
-                                <div class="modal-footer">
-                                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-                                    <a href=index.html><button type="button" class="btn btn-primary">Back to homepage</button></a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
+												</div>
+												<div class="modal-body">
+													We will be in touch soon :D
+												</div>
+												<div class="modal-footer">
+													<button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+													<a
+														href=index.html><button type="button" class="btn btn-primary">Back to homepage</button></a>
+												</div>
+											</div>
+										</div>
+									</div>
 				</form>
 			</div>
 		</div>
@@ -143,10 +165,10 @@
 				<h2>Get in touch at info@thestudes.com</h2>
 			</div>
 		</div> -->
-        <div class="row">
-            <div class="col-12 breathing-space">
-            </div>
-        </div>
+		<div class="row">
+			<div class="col-12 breathing-space">
+			</div>
+		</div>
 	</section>
 
 	<footer class="container-fluid">
@@ -154,7 +176,8 @@
 			<div class="col-12 footer-background">
 				<div class="card text-center">
 					<div class="card-body d-flex flex-column footer-background">
-						<a href="mailto:info@thestudes.com" target="_blank" class="btn btn-dark email-button">info@thestudes.com</a>
+						<a href="mailto:info@thestudes.com" target="_blank"
+							class="btn btn-dark email-button">info@thestudes.com</a>
 						<a class="btn btn-outline-dark"
 							href="https://www.instagram.com/stories/highlights/17860680547695687/" role="button"
 							target="_blank"><i class="fab fa-instagram"></i></a>
@@ -179,4 +202,3 @@
 </body>
 
 </html>
-
