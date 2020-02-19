@@ -17,6 +17,7 @@
     font-weight: 700;
     letter-spacing: 3px;
     color: black;
+    padding: 0 0 0 2vw;
 }
 
 .nav-link {
@@ -273,6 +274,8 @@ h3.header {
     padding: 0 5% 0 0;
 }
 
+
+
 /* ---------------------------------------------Members-------- */
 
 .members-intro {
@@ -340,15 +343,17 @@ h3.header {
     margin: 0 0 0 40px;
 }
 
-/* .tier-selector .form-check-label {
-    padding: 0 0 10px 0;
-} */
-
 .description-text p {
     font-family: "Maven Pro", sans-serif;
     font-size: 15px;
     color: grey;
 }
+
+/* .max-width .join-row-stretch {
+    max-width: 80%;
+    margin: 0 0;
+    }
+} */
 
 /* ---------------------------------------------Contact Page-------- */
 
@@ -397,14 +402,14 @@ h3.header {
 @media only screen and (max-width: 991px) {
     .max-width {
     max-width: 100%;
-    margin: 0 0;
+    margin: 0 0 0 0;
     }
 }
 
 /* Navbar Logo & Menu Items Size Change with smaller screen */
 @media only screen and (max-width: 991px) {
     .logo {
-        font-size: 4vh;
+        font-size: 6vh;
     }
     .nav-link {
         font-size: 20px;
@@ -422,7 +427,7 @@ h3.header {
     }
 }
 
-                                            /* Join Page */
+                                            /* Join & Application Pages */
 
 @media only screen and (max-width: 991px) {
     /* Background Colours changing in smaller screens */
@@ -459,6 +464,7 @@ h3.header {
         font-size: 3vh;
     }
 }
+
 
 
                                             /* Homepage */
