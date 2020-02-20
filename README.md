@@ -15,7 +15,7 @@ For existing members, the website will host a page where members can book facili
 
 ## UX
 
-### Site Users - who is it focused on
+### Site visitors - who is it focused on?
 - The Studes website is geared towards people living in the Stockholm area, who are either professional creatives needing a space to work or hobbyists who need a space to indulge their creative passions.
 - The main users of the site will be either:
 
@@ -23,17 +23,19 @@ For existing members, the website will host a page where members can book facili
     - People curious about becoming a member of The Studes and wanting more information about the membership packages.
     - People who want to join and are ready to apply. 
 
-    - ### ***Existing Members**
+    - ### **Existing Members**
     - Members who need to book facilities and want to enquire about availability.
     - Members who want to communicate with other members. They could have an idea for collaborating, a possible commission or another creative idea.
 
-- Both groups are looking for somewhere that they can be creative without having the big financial commitment and hassle associated with having their own private studio.
-- The users of the site will be mainly existing members or people who are interested in joining (and either want to find out more or are there to apply for membership).
-- Both groups are associated with a creative field and want to meet and possibly collaborate with other creatives in the Stockholm area.
+- Both of the main groups have a need for a space where they can be creative without having the financial commitments and hassle of having their own private studio. 
+- The site will also be a source of information for people who just need to know contact details or are curious about what The Studes is.
 
-### What do they want to achieve?
+### What do visitors want to achieve?
+For people 
 
-### How is the project the best way to help them achieve these things?
+### The Studes website is the best way for visitors to achieve their goals because:
+- It provides visitors who are interested in membership with information about The Studes and its different membership packages
+- It offers a way for visitors to send their personal information and apply for membership 
 
 
 
