@@ -156,16 +156,61 @@ On a screen tablet size and larger the map and contact information are side by s
 
 ### Features To Implement
 
-A login system for existing members. 
+- A login system for existing members. This will allow members to enter login details and omit the need to enter an email address when booking / enquiring / sending a brief
+- A booking system which that would enable existing members to see the availability of facilities and book without assistance
+- A 'noticeboard' for members to post collaboration ideas, briefs, commissions etc and interact with each other on the site
+- An option to choose the language of the site. We are relying on everyone to speak English but want to ensure nobody is alienated
 
 ## Technologies Used
+- HTML and CSS programming languages
+- [BootstrapCDN](https://www.bootstrapcdn.com/): [BootStrap4] (https://getbootstrap.com/docs/4.0/getting-started/introduction/) to assist with the structuring and responsiveness of the site
+- [Google Fonts](https://fonts.google.com/) for the fonts used throughout the page
+- [Maps](https://www.maps.ie/create-google-map/) for the Google map on the contact page
+- [Github](https://github.com/) to store repositories of the project
+- [Gitpod](https://www.gitpod.io/) for providing the workspace where the code was written
 
 ## Testing
 
 ## Deployment
+This project was developed using the [Gitpod](https://www.gitpod.io/) IDE, commited to git and pushed to Github using its build in function. 
+
+The following steps were taken to deploy this page from its [Github](https://github.com/trisdauvergne/milestone-project-01) repository to Github pages:
+
+1. Log into [GitHub](https://github.com/)
+2. Select trisdauvergne/milestone-project-01 from the list of 
+3. Select 'Setings' from the row of menu items on screen
+4. Scroll down to the 'Github Pages' section
+5. Under 'Source', click the drop down menu and select 'Master Branch'
+6. The page is automatically refreshed and the website is now deployed
+7. The link can now be found in the same 'Github Pages' section after 'Your page is now published at...'
+
+At the moment of submitting this Milestone project the Development Branch and Master Branch are identical.
+
+##To run this project locally
+Follow the below steps to clone this project from Github:
+
+1. Go to the project repository [here](https://github.com/trisdauvergne/milestone-project-01)
+2. Look for the green button on the right hand side of the page that says 'Clone or Download' (you may need to scroll down slightly to see it)
+3. Copy and paste the link in the box
+4. Open Terminal
+5. Change the current working directory to the location where you want the cloned directory to be made.
+6. Type git clone, and then paste the URL you copied in Step 2.
+> $ git clone https://github.com/YOUR-USERNAME/YOUR-REPOSITORY
+7. Press Enter. Your local clone will be created.
 
 ## Credits
-### Content
-### Media
-###Acknowledgments
 
+### Content
+- Main copy for the site has been written by Tristan Dauvergne
+- Membership structures and pricing contributed by Peter Dunn
+
+### Media
+- All photos used on this site were obtained from [Unsplash](https://unsplash.com/)
+
+
+###Acknowledgments
+This site has been built to help The Studes establish itself as it takes its first steps from idea to reality.
+
+The design inspiration comes from many places including graphic posters and book layout.
+
+I have been guided through this project by my mentor Brian Macharia who has given me professional guidance to improve the UX of this site.

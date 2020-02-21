@@ -204,6 +204,18 @@ strong {
     font-weight: bold;
 }
 
+/* Form Inside Text */
+.form-control {
+    font-family: "Maven Pro", sans-serif;
+    font-size: 15px;
+}
+
+/* Application Form text */
+.application-form label {
+    font-family: "Maven Pro", sans-serif;
+    font-size: 20px;
+}
+
 /* ---------------------------------------------Homepage-------- */
 
 /* Opening Image */
@@ -357,9 +369,9 @@ strong {
     padding: 1.5vh 1.5vh;
 }
 
-.application-form {
+/* .application-form {
     padding-top: 20px;
-}
+} */
 
 .submit-button {
     background-color: #000;
@@ -525,6 +537,14 @@ strong {
     }       
 }
 
+/* Padding above email line */
+@media only screen and (max-width: 425px) {
+    .application-form label {
+        padding-top: 2vh;
+        padding-left: 2vh;
+    }
+}
+
 /* ---------------------------------------------Homepage-------- */
 
 /* Body Copy Margins removed in small screen */
@@ -592,7 +612,7 @@ strong {
     background-size: cover;
     background-repeat: no-repeat;
     }
-
+}
 
 /* Intro Image reduced size on small screen */
 @media only screen and (max-width: 991px) {
