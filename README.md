@@ -62,17 +62,37 @@ The header and footer contain only essential information, presented with clean f
 Each page also features a header panel that contains a hero background image related to The Studes business.
 The header panels on every page also contain a bold heading and sub-heading copy that introduces that page, apart from the homepage which has an abstract definition of The Studes to create intrigue. 
 
-### Home
+### Home Page
 
 The home page features a header panel with a striking background image of a warehouse studio space and a definition of 'studes' in bold white text.
-This is intended to be an impactful first impression of the website. 
-The background image is a fixed position and does not repeat. 
-The bold text is responsive and changes size in smaller screens.
+This provides an impactful first impression of the website. 
+The background image is a fixed position and does not repeat. The bold text is responsive and changes size in smaller screens.
 The word 'studes' acts as the page heading and should always be bigger than the definition, which is the sub-heading. 
 
-Below the header panel is a short paragraph with an introduction to the concept of The Studes.
-Next to this is an image of a photoraphy studio setup, which reinforces the type of facilities available.
-Below the copy is a button which can act as a shortcut to the 
+Below the header panel is a short paragraph with an introduction to the concept of The Studes next to an image of a photoraphy studio setup. This reinforces the type of facilities available.
+This image will move below the introduction paragraph on a screen smaller than a tablet.
+Below the copy is a button which acts as a shortcut to find out more about different membership packages.
+
+Underneath the introduction paragraph and image, sits a second paragraph and image that introduce the facilities for members and the idea of collaboration.
+As both the paragraphs in this section relate to membership, there is a button that can take users directly to the members page.
+The image that sits on the left is of some Apple computers in a modern office which give a suggestion of what The Studes will feel like.
+
+Beneath this section sit four short testimonials and images of existing members.
+There are two testimonials per row in a large screen, however in a small screen they will reduce to one testimonial per row and take up the width of the screen.
+
+### Join Us Page
+
+The join us page features a header panel follows the same approach with a creative, striking image with bold white heading and sub-heading overlaid.
+The image is centred and in a fixed position.
+
+On the left hand side below the header panel sits an image of a photographic studio, to showcase the available facilities. 
+Next to the image on the right are some key benefits of membership, with key words in bold to draw attention to them. 
+On a large screen the image and the text will sit side by side, whereas a screen smaller than a tablet the image will sit below the text.
+
+Beneath this section sit the membership packages. These are stripped back to the essential information to help the user process the information.
+There are two membership types per row (four altogether), with an image on each row. The image is on the right hand side of the first row and on the left hand side of the second row.
+Underneath each membership breakdown sits a button that takes the user to the Application Form page. 
+On a tablet the 
 
 ### Existing Features
 
