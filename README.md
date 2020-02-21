@@ -54,9 +54,9 @@ For existing members, the website will host a page where members can book facili
 4. Contact page
 
 ## Features
-Each page features a navigation bar and footer.
-The navigation bar contains the logo in the top left hand corner with the 4 menu items aligned to the right: home, join us, members, contact.
-The Studes will contain a live email button and the Instagram and LinkedIn icons (since The Studes will only have social media presence on these 2 sites).
+Each page features a **navigation bar** and **footer**.
+The navigation bar contains the **logo** in the top left hand corner with the 4 menu items aligned to the right: home, join us, members, contact.
+The Studes will contain a **live email button** and the **Instagram** and **LinkedIn icons** (since The Studes will only have social media presence on these 2 sites).
 The header and footer contain only essential information, presented with clean fonts and with high contrast backgrounds to aid accessibility.
 
 Each page also features a header panel that contains a hero background image related to The Studes business.
@@ -92,30 +92,30 @@ On a large screen the image and the text will sit side by side, whereas a screen
 
 Beneath this section sit the membership packages. These are stripped back to the essential information to help the user process the information.
 There are two membership types per row (four altogether), with an image on each row. The image is on the right hand side of the first row and on the left hand side of the second row.
-Underneath each membership breakdown sits a button that takes the user to the Application Form page. 
+Underneath each membership breakdown sits a **button that takes the user to the Application Form page**. 
 On a tablet the images will disappear and the boxes will have a coloured background to aid visibility and distinguish between each other.
 On a small screen the memberships will become stacked. 
 
-### Application Page
+### Application Form Page
 
 For consistency across the site, this page features a header panel with a creative image and text.
 
 Beneath this sits a form where the user can apply for membership. Elements within the form include:
-- Buttons to select the type of membership the user would like to apply for, with a reminder sentence below. (If they need a more detailed reminder, there is a button to take them back to the joining page with more information)
-- The form requests full name, email address and a link to portfolio.
+- **Buttons to select the type of membership** the user would like to apply for, with a reminder sentence below. (If they need a more detailed reminder, there is a button to take them back to the joining page with more information)
+- The **form** requests full name, email address and a link to portfolio.
 - The form also requests for the user to enter their specialist creative area.
-- The submit button opens a modal to confirm the user's application has been sent and The Studes will be in touch soon. The buttons in the modal give the user the option to close or go back to the homepage.
+- The **submit button** opens a modal to confirm the user's application has been sent and The Studes will be in touch soon. The buttons in the modal give the user the option to close or go back to the homepage.
 
 ### Members Page
 
-Beneath the header panel the user has the option to enquire about availability and also to share a commission or collaboration brief with The Studes network.
+Beneath the header panel the user has the option to **enquire about availability** and also to **share a commission or collaboration brief** with The Studes network.
 
 The first form features brief text on the left of the page, explaining the purpose of the form and expected next steps. 
 The user must then fill in the following information on the right hand side of the page:
 - Email address to identify the member.
 - Which facility the user would like to book, which date and what time they would like to book. These 3 pieces of information are drop down menus to help them make a decision.
 - If the user needs to book something for longer, they can explain their requirement below to avoid submitting multiple forms.
-- There is then a button at the bottom to submit their booking request.
+- There is then a **button** at the bottom to submit their booking request.
 
 Underneath this form is another form where the user can share a collaboration or commission brief. 
 As with the previous form, there is a brief text on the left explaining the purpose of the firm and next steps with the form on the right hand side.
@@ -126,13 +126,13 @@ The user must fill in the following:
     - commission
     - skill required
 - A short written brief.
-- There is then a button at the bottom to submit the brief. 
+- There is then a **button** at the bottom to submit the brief. 
 
 ### Contact Page
 
-This page features essential contact information with a Google map on the left, with contact information on the right.
+This page features essential contact information with a **Google map** on the left, with contact information on the right.
 
-The contact information box features a live link to the email address and Instagram when you click on the text.
+The contact information box features a **live link** to open the email address in a new window, as well as an **Instagram link** to open The Studes Instagram stories when you click on the text.
 The text is larger than the rest of the copy and a different font to draw attention to it, but doesn't use a button design.
 The text overlays a creative themed image, which becomes a solid background in a mobile device to aid accessibility. 
 
@@ -140,7 +140,13 @@ On a screen tablet size and larger the map and contact information are side by s
 
 ### Existing Features
 
+#### Site Wide
+- Navigation bar
+- Logo
+
 ### Features To Implement
+
+A login system for existing members. 
 
 ## Technologies Used
 
