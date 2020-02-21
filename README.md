@@ -54,13 +54,25 @@ For existing members, the website will host a page where members can book facili
 4. Contact page
 
 ## Features
-Each page features a navigation bar and footer. The navigation bar contains the logo in the top left hand corner with the 4 menu items aligned to the right: home, join us, members, contact. The Studes will contain a live email button and the Instagram and LinkedIn icons (since The Studes will only have social media presence on these 2 sites). The header and footer contain only essential information, presented with clean fonts and with high contrast backgrounds to aid accessibility.
+Each page features a navigation bar and footer.
+The navigation bar contains the logo in the top left hand corner with the 4 menu items aligned to the right: home, join us, members, contact.
+The Studes will contain a live email button and the Instagram and LinkedIn icons (since The Studes will only have social media presence on these 2 sites).
+The header and footer contain only essential information, presented with clean fonts and with high contrast backgrounds to aid accessibility.
 
-Each page also features a header panel that contains a hero image related to The Studes. The header panels on every page also contain bold copy that introduces that page, apart from the homepage which has an abstract definition of The Studes to create intrigue. 
+Each page also features a header panel that contains a hero background image related to The Studes business.
+The header panels on every page also contain a bold heading and sub-heading copy that introduces that page, apart from the homepage which has an abstract definition of The Studes to create intrigue. 
 
 ### Home
 
-The home page features a striking background image of a warehouse studio space with a definition of 'studes' in bold white text. This is intended to be an impactful first impression of the website. The background image is fixed
+The home page features a header panel with a striking background image of a warehouse studio space and a definition of 'studes' in bold white text.
+This is intended to be an impactful first impression of the website. 
+The background image is a fixed position and does not repeat. 
+The bold text is responsive and changes size in smaller screens.
+The word 'studes' acts as the page heading and should always be bigger than the definition, which is the sub-heading. 
+
+Below the header panel is a short paragraph with an introduction to the concept of The Studes.
+Next to this is an image of a photoraphy studio setup, which reinforces the type of facilities available.
+Below the copy is a button which can act as a shortcut to the 
 
 ### Existing Features
 
