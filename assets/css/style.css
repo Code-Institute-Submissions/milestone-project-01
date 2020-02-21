@@ -182,6 +182,11 @@ h3.header {
     font-weight: bold;
 }
 
+/* Bold words on join us page */
+strong {
+    font-weight: bold;
+}
+
 /* ---------------------------------------------Homepage-------- */
 
 /* Opening Image */
