@@ -141,8 +141,18 @@ On a screen tablet size and larger the map and contact information are side by s
 ### Existing Features
 
 #### Site Wide
-- Navigation bar
-- Logo
+- **Navigation bar** is a feature on every page and helps the user easily navigate through pages
+- **Logo** features on every page and will take the user back to the homepage if clicked
+- **Footer** is at the bottom of every page and contains a button for the user to send an email to The Studes in a new window
+- The **Instagram icon** in the footer is also live and takes the user to The Studes Instagram stories
+- The **LinkedIn icon** is also live and takes the user to the Linkedin website
+- The **link to an application form** underneath each membership type on the join page takes the user through to a page where they can apply for membership
+- On the join page, features include a **button** to select membership type, a **form** to apply for membership with a **submit button** to send the application to The Studes
+- On the members page, there is a **form** to enquire about availability of facilities with a **submit button**
+- Also on the members page is another **form** which allows users to share collaboration and commission ideas with a **submit button** 
+- There is a **Google map** on the contact page for the user to explore the area on the map
+- There is a live **email link** when you click on the email address in the contact information box. This opens a new window so the user can send an email to The Studes
+- There is also a live **Instagram link** when you click on Instagram in the contact information box. This will open Instagram stories in a new window so the user can keep up to date with The Studes activity
 
 ### Features To Implement
 
