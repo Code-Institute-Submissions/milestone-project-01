@@ -3,6 +3,7 @@
 @import url('https://fonts.googleapis.com/css?family=Allerta+Stencil:100,200,300,400,500,600,700');
 @import url('https://fonts.googleapis.com/css?family=Maven+Pro::100,200,300,400,500,600,700');
 
+
 /* ---------------------------------------------Text Margins-------- */
 
 .col-lg-6 {
@@ -94,6 +95,15 @@
     margin: 0 0 2vh 0;
 }
 
+/* No padding on smaller screens (overridden from default) */
+.container-fluid {
+    width: 100%;
+    padding-right: 0;
+    padding-left: 0;
+    margin-right: auto;
+    margin-left: auto;
+}
+
 /* ---------------------------------------------Fonts-------- */
 
 /* Hero-text in headers */
@@ -177,7 +187,7 @@ h3.header {
 /* Opening Image */
 .welcome-home {
     background-image: url("../images/ioana-cristiana-AH-Z-qq3Mvc-unsplash.jpg");
-    background-size: 100%;
+    background-size: 100% auto;
     background-attachment: fixed;
 }
 
@@ -332,6 +342,21 @@ h3.header {
     color: grey;
 }
 
+.modal-title {
+    margin-bottom: 0;
+    line-height: 1.5;
+    font-family: "Maven Pro", sans-serif;
+    font-size: 25px;
+}
+
+.modal-body {
+    font-family: "Maven Pro", sans-serif;
+}
+
+.modal-footer {
+    font-family: "Allerta Stencil", sans-serif;
+}
+
 /* ---------------------------------------------Contact Page-------- */
 
 .contact-map {
@@ -353,11 +378,6 @@ h3.header {
     text-align: left;
     padding: 100px 0;
 }
-
-/* Button text inside contact information box */
-/* .contact-info a {
-    color: white;
-} */
 
 /* Button inside contact information box */
 .contact-button {
@@ -449,6 +469,19 @@ h3.header {
     }
 }
 
+/* Hero Image on join and application page resizing on Small mobile screen */
+@media only screen and (max-width: 425px) {
+    .join-hero {
+        background-size: 125vh auto;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+
+    .tier-1-hero {
+    background-size: 125vh auto;
+    background-position: center;
+    }       
+}
 
 /* ---------------------------------------------Homepage-------- */
 
@@ -458,6 +491,13 @@ h3.header {
     color: black;
     margin: 0 0 0 0;
     font-size: 18px;
+    }
+}
+
+/* Opening Image */
+@media only screen and (max-width: 425px) {
+.welcome-home {
+    background-size: 125vh auto;
     }
 }
 
@@ -515,7 +555,6 @@ h3.header {
 /* Intro Image reduced size on small screen */
 @media only screen and (max-width: 991px) {
     .join-intro-image {
-        /* height: 60vh; */
         width: 100%;
         object-fit: contain;
     }
@@ -524,11 +563,11 @@ h3.header {
 /* ---------------------------------------------Members Page-------- */
 
 @media only screen and (max-width: 991px) {
-    .tier-1-hero {
-    background-image: url("../images/daniel-chekalov-OxU08SFhPbI-unsplash.jpg");
-    background-size: cover;
-    background-attachment: fixed;
-    }   
+    .members-intro {
+        background-size: 140vh auto;
+        background-attachment: fixed;
+        background-position: center;
+    }
 }
 
 /* ---------------------------------------------Contact Page-------- */

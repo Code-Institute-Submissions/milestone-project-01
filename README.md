@@ -56,11 +56,11 @@ For existing members, the website will host a page where members can book facili
 ## Features
 Each page features a navigation bar and footer. The navigation bar contains the logo in the top left hand corner with the 4 menu items aligned to the right: home, join us, members, contact. The Studes will contain a live email button and the Instagram and LinkedIn icons (since The Studes will only have social media presence on these 2 sites). The header and footer contain only essential information, presented with clean fonts and with high contrast backgrounds to aid accessibility.
 
-Every page also features a header panel that contains an attention grabbing image related to The Studes. The header panels on every page also contain with bold copy that introduces that page, apart from the homepage which has an abstract definition of The Studes to create intrigue. 
+Each page also features a header panel that contains a hero image related to The Studes. The header panels on every page also contain bold copy that introduces that page, apart from the homepage which has an abstract definition of The Studes to create intrigue. 
 
-### Homepage
+### Home
 
-The homepage 
+The home page features a striking background image of a warehouse studio space with a definition of 'studes' in bold white text. This is intended to be an impactful first impression of the website. The background image is fixed
 
 ### Existing Features
 
