@@ -2,43 +2,43 @@
 
 ## Testing client stories from the UX section of README.md
 
-1. "I'm a sculptor and need to create some pieces next week.
+1. _"I'm a sculptor and need to create some pieces next week.
 The Studes has a dirty area that's perfect for artists with all the equipment.
-**I need to check if I can use it on a certain day next week**.” 
-- This user will be an existing member of The Studes.
-- The user takes 3 steps: _Home > Members > Enquiry form_ 
-- The user can either go to the Members page through the navigation bar or the button within the homepage content
+**I need to check if I can use it on a certain day next week**.”_
+- This user will be an existing member of The Studes
+- The user takes three steps to achieve their goal: _Home > Members > Enquiry form_ 
+- The user can either go to the Members page through the navigation bar, or the button within the homepage content
 - The user is then able to fill in the form to match their requirements
 
-2. "I’m a student at the craft school and live in a small shared flat so aren’t able to do much work at home.
+2. _"I’m a student at the craft school and live in a small shared flat so aren’t able to do much work at home.
 I’d love a studio of my own but that would be quite expensive and I don’t want to spend that much just for a few evenings a week. 
-**I’ve heard about The Studes so want to see if membership is affordable and if it's not too much, I want to join!**"
-- This user is not currently a member of The Studes so may be unfamiliar with the site.
-- The user takes 3 steps to the application form: _Home > Join Us > Apply_
-- The user will be able to access the membership packages on the 'Join Us' page through 2 routes: through the navigation bar or the button positioned after the first paragraph
-- The user can review the different membreship packages on the 'Join Us' page and easily make their way to the application page by clicking 1 of the 3 buttons on this page
+**I’ve heard about The Studes so want to see if membership is affordable and if it's not too much, I want to join!**"_
+- This user is not currently a member of The Studes so may be unfamiliar with the site
+- The user takes three steps to the application form: _Home > Join Us > Apply_
+- The user will be able to access the membership packages on the 'Join Us' page through two routes; through the navigation bar or the button positioned after the first paragraph
+- The user can review the different membership packages on the 'Join Us' page and easily make their way to the application page by clicking 1 of the 3 buttons on this page
 - The application form can only be reached through the 'Join Us' page to ensure they review the membership types
 - The application form requests only essential information (name, email, link to portfolio) with options for the specialist area
 
-3. “I’ve heard about The Studes and just want to check it out.
+3. _“I’ve heard about The Studes and just want to check it out.
 I used to screen print when I was younger and am considering taking it up again but don’t have the facilities.
-**I want to see how much it costs to be a member as I'm considering picking it up again?**”
+**I want to see how much it costs to be a member as I'm considering picking it up again?**”_
 - The user is not currently a member of The Studes and wants to review membership packages
-- For this mission, the user takes 2 steps to the join us section to review membership packages
+- For this mission, the user takes two steps to the join us section to review membership packages
 - The join us page is easily reached either through the navigation bar or the button underneath the first paragraph of text on the home page
 
-4. “I’m a womenswear designer that uses The Studes for their big tables, sewing machines and to generally make a mess!
+4. _“I’m a womenswear designer that uses The Studes for their big tables, sewing machines and to generally make a mess!
 I’m working for a client who wants bespoke prints designed but I can’t do it myself.
-**I need to see if there is anyone at The Studes who does print and would be interested in working with me on this collection**”
+**I need to see if there is anyone at The Studes who does print and would be interested in working with me on this collection**”_
 - The user is an existing member and needs to reach the collaboration / commission form
 - The user will navigate through the following journey: _- Home > Members > Collaboration form_
 - The Members page can be reached through the navigation bar or the button underneath the second paragraph on the homepage
 - On the Members page, the user scrolls down to the 2nd form where they can fill in a brief for their commission
 - When the user submits their brief a modal pops up confirming their brief has been received and outlining next steps
 
-5. "Someone left their ‘The Studes’ bag with some materials in it at my coffee shop.
-**I just need a phone number** so they can pick it up."
-- The user needs to take 2 steps to get a phone number: _- Home > Contact_
+5. _"Someone left their ‘The Studes’ bag with some materials in it at my coffee shop.
+**I just need a phone number** so they can pick it up."_
+- The user needs to take two steps to get a phone number: _- Home > Contact_
 - On the Contact page, the user can see the phone number
 - The number can be pressed and automatically dialled from the users phone if they are viewing on mobile
 
@@ -46,17 +46,17 @@ I’m working for a client who wants bespoke prints designed but I can’t do it
 
 ### Home page
 1. Navigation bar:
-- Check that the logo functions and takes the user back to the Home page when clicked on
-- Check that the logo is responsive and changes size in different screen sizes
-- Check that the navigation menu items condense into a 'hamburger' drop down menu when the screen reduces in size
+- Click the logo to go back to the home page when clicked on
+- Reduce screen size to check the logo changes size on smaller screens
+- Reduce screen size to see the navigation menu items condense into a 'hamburger' drop down menu
 - Check that the 'home' menu item in the navigation is bold while on the home page
-- Check that the navigation bar stays at the top of the viewport while the user scrolls down to the bottom of the page
+- Scroll down the page to see the navigation bar stays at the top of the viewport while you scroll down to the bottom
 
 2. Footer bar:
-- Check that when the email button is clicked that it opens a new page to send an email
-- Check that the Instagram icon opens The Studes Instagram stories in a new window
-- Check that the LinkedIn icon opens the LinkedIn home page in a new window
-- Check that the elements don't distort in smaller screen sizes
+- Click the 'info@thestudes.com' to open a new page to send an email
+- Click the Instagram icon to open The Studes Instagram stories in a new window
+- Click the LinkedIn icon to open the LinkedIn home page in a new window
+- Reduce the screen size to check the elements don't distort in smaller screen sizes
 - Check that the footer bar stays at the bottom of the page
 
 3. Header panel:
@@ -67,11 +67,12 @@ I’m working for a client who wants bespoke prints designed but I can’t do it
 
 4. Intro copy section:
 - Check that the padding in the opening copy disappears in any screen smaller than a laptop
-- Check that the 'Review Memberships' button takes the user to the 'join us' page
+- Click the 'Review Memberships' button to go to the 'join us' page
 - Check that the first image sits below the introduction paragraph in a screen size smaller than a tablet
 - Check that the second image is not visible on a screen size smaller than a tablet
 - Check that the second block of copy sits beneath the image in a screen size smaller than a tablet
-- Check that the button 'Go to members page' takes the user to the members page
+- Click the button 'Go to members page' to go to the members page
+- Check margin on left of text in first paragraph, and right of second paragraph is reduced on tablet and smaller screens
 
 5. Testimonials:
 - Check that the row of images and text stretch to the edges of the screen when smaller than a laptop
@@ -184,4 +185,12 @@ I’m working for a client who wants bespoke prints designed but I can’t do it
 - Click the email address to open a new window to send an email
 - Click on the featured phone number in a mobile screen to call through to the number
 - Click on the word 'Instagram' to open a new window with The Studes Instagram stories
-- Check that the background image turns into a solid pink background in a mobile screen
+- Check that the background image turns into a solid pink background on a mobile screen
+
+## Further testing:
+
+1. Asked fellow students to look at the site and report any issues they encountered. Issues spotted include:
+- Difficulty reading forms as white text was used against coloured backgrounds. This has been adjusted to black text to aid accessibility.
+- Noticed squashed text in mobile screens
+2. Asked friends and family to test the site for ease of use
+3. The website has been viewed on different browsers, no issues were found

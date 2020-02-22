@@ -174,6 +174,7 @@ On a screen tablet size and larger the map and contact information are side by s
 - On the members page, there is a **form** to enquire about availability of facilities with a **submit button**
 - Also on the members page is another **form** which allows users to share collaboration and commission ideas with a **submit button** 
 - Both **modals** on the members page reassure the user that their enquiry or brief has been sent and provides next steps. This gives them an easy way to get back to the home page and encourages a longer stay on the site. 
+- The **here** in the small print by both forms is a link to the join us page. For anyone who is not a member but considering it and exploring the page, this will encourage them back to the join us page to explore membership options.
 #### Contact Page 
 - There is a **Google map** on the contact page for the user to explore the area on the map
 - There is a live **email link** when you click on the email address in the contact information box. This opens a new window so the user can send an email to The Studes
