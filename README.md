@@ -1,6 +1,6 @@
 # Milestone Project 1 - A website for The Studes
 
-### Link to website?
+# Link to website?
 ## An introduction to the project
 
 The Studes is a co-working space that will encourage **collaboration** and **communication** between professional artists, makers, crafts people, designers and digital creatives as well as enthusiasts who just need a space for their creative outlet.
@@ -75,16 +75,16 @@ For existing members, the website will host a page where members can book facili
 - [Mobile](https://github.com/trisdauvergne/milestone-project-01/blob/master/readme-assets/wireframes/Mobile-ContactPage.jpg)
 
 ## Features
+
 Each page features a **navigation bar** and **footer**.
 The navigation bar contains the **logo** in the top left hand corner with the 4 menu items aligned to the right: home, join us, members, contact.
 The Studes will contain a **live email button** and the **Instagram** and **LinkedIn icons** (since The Studes will only have social media presence on these 2 sites).
 The header and footer contain only essential information, presented with clean fonts and with high contrast backgrounds to aid accessibility.
 
 Each page also features a header panel that contains a hero background image related to The Studes business.
-The header panels on every page also contain a bold heading and sub-heading copy that introduces that page, apart from the homepage which has an abstract definition of The Studes to create intrigue. 
+The header panels on every page also contain a bold heading and sub-heading copy that introduces that page, apart from the home page which has an abstract definition of The Studes to create intrigue. 
 
 ### Home Page
-
 The home page features a header panel with a striking background image of a warehouse studio space and a definition of 'studes' in bold white text.
 This provides an impactful first impression of the website. 
 The background image is a fixed position and does not repeat. The bold text is responsive and changes size in smaller screens.
@@ -92,10 +92,10 @@ The word 'studes' acts as the page heading and should always be bigger than the 
 
 Below the header panel is a short paragraph with an introduction to the concept of The Studes next to an image of a photoraphy studio setup. This reinforces the type of facilities available.
 This image will move below the introduction paragraph on a screen smaller than a tablet.
-Below the copy is a button which acts as a shortcut to find out more about different membership packages.
+Below the copy is a **button** which acts as a shortcut to find out more about different membership packages.
 
 Underneath the introduction paragraph and image, sits a second paragraph and image that introduce the facilities for members and the idea of collaboration.
-As both the paragraphs in this section relate to membership, there is a button that can take users directly to the members page.
+As both the paragraphs in this section relate to membership, there is a **button** that can take users directly to the members page.
 The image that sits on the left is of some Apple computers in a modern office which give a suggestion of what The Studes will feel like.
 
 Beneath this section sit four short testimonials and images of existing members.
@@ -103,7 +103,6 @@ There are two testimonials per row in a large screen, however in a small screen 
 In a small screen, a dividing bar will appear between each testimonial to aid readability. 
 
 ### Join Us Page
-
 The join us page features a header panel follows the same approach with a creative, striking image with bold white heading and sub-heading overlaid.
 The image is centred and in a fixed position.
 
@@ -118,17 +117,15 @@ On a tablet the images will disappear and the boxes will have a coloured backgro
 On a small screen the memberships will become stacked. 
 
 ### Application Form Page
-
 For consistency across the site, this page features a header panel with a creative image and text.
 
 Beneath this sits a form where the user can apply for membership. Elements within the form include:
 - **Buttons to select the type of membership** the user would like to apply for, with a reminder sentence below. (If they need a more detailed reminder, there is a button to take them back to the joining page with more information)
 - The **form** requests full name, email address and a link to portfolio.
 - The form also requests for the user to enter their specialist creative area.
-- The **submit button** opens a modal to confirm the user's application has been sent and The Studes will be in touch soon. The buttons in the modal give the user the option to close or go back to the homepage.
+- The **submit button** opens a modal to confirm the user's application has been sent and The Studes will be in touch soon. The buttons in the modal give the user the option to close or go back to the home page.
 
 ### Members Page
-
 Beneath the header panel the user has the option to **enquire about availability** and also to **share a commission or collaboration brief** with The Studes network.
 
 The first form features brief text on the left of the page, explaining the purpose of the form and expected next steps. 
@@ -136,7 +133,7 @@ The user must then fill in the following information on the right hand side of t
 - Email address to identify the member.
 - Which facility the user would like to book, which date and what time they would like to book. These 3 pieces of information are drop down menus to help them make a decision.
 - If the user needs to book something for longer, they can explain their requirement below to avoid submitting multiple forms.
-- There is then a **button** at the bottom to submit their booking request.
+- There is then a **button** at the bottom which opens a **modal** to submit their booking request. This confirms their enquiry has been sent and gives them the option to take them back to the home page.
 
 Underneath this form is another form where the user can share a collaboration or commission brief. 
 As with the previous form, there is a brief text on the left explaining the purpose of the firm and next steps with the form on the right hand side.
@@ -147,10 +144,9 @@ The user must fill in the following:
     - commission
     - skill required
 - A short written brief.
-- There is then a **button** at the bottom to submit the brief. 
+- There is then a **button** at the bottom to submit the brief which opens a **modal** and also confirms their brief has been received with an option to take them back to the home page. 
 
 ### Contact Page
-
 This page features essential contact information with a **Google map** on the left, with contact information on the right.
 
 The contact information box features a **live link** to open the email address in a new window, a **call function** when the telephone number is clicked as well as an **Instagram link** to open The Studes Instagram stories when you click on the text.
@@ -163,27 +159,35 @@ On a screen tablet size and larger the map and contact information are side by s
 
 #### Site Wide
 - **Navigation bar** is a feature on every page and helps the user easily navigate through pages
-- **Logo** features on every page and will take the user back to the homepage if clicked
+- **Logo** features on every page and will take the user back to the home page if clicked
 - **Footer** is at the bottom of every page and contains a button for the user to send an email to The Studes in a new window
 - The **Instagram icon** in the footer is also live and takes the user to The Studes Instagram stories
 - The **LinkedIn icon** is also live and takes the user to the Linkedin website
+#### Home Page
+- The home page features a **button** underneath the introduction gives any users who want to quickly find out about membership packages and easy path to that page when clicked. 
+- The home page also features a **button** which gives any users who are curious to see the member features a shortcut route to the members page as an alternative to going through the navigation bar.
+#### Join Us Page
 - The **link to an application form** underneath each membership type on the join page takes the user through to a page where they can apply for membership
-- On the join page, features include a **button** to select membership type, a **form** to apply for membership with a **submit button** to send the application to The Studes
+#### Application Page
+- On the application page, features include a **button** to select membership type, a **form** to apply for membership with a **submit button** to send the application to The Studes
+#### Members Page
 - On the members page, there is a **form** to enquire about availability of facilities with a **submit button**
 - Also on the members page is another **form** which allows users to share collaboration and commission ideas with a **submit button** 
+- Both **modals** on the members page reassure the user that their enquiry or brief has been sent and provides next steps. This gives them an easy way to get back to the home page and encourages a longer stay on the site. 
+#### Contact Page 
 - There is a **Google map** on the contact page for the user to explore the area on the map
 - There is a live **email link** when you click on the email address in the contact information box. This opens a new window so the user can send an email to The Studes
 - The **call function** easily allows the user to call directly to The Studes when the number is clicked without typing the number in separately. 
 - There is also a live **Instagram link** when you click on Instagram in the contact information box. This will open Instagram stories in a new window so the user can keep up to date with The Studes activity
 
 ### Features To Implement
-
 - A login system for existing members. This will allow members to enter login details and omit the need to enter an email address when booking / enquiring / sending a brief
 - A booking system which that would enable existing members to see the availability of facilities and book without assistance
 - A 'noticeboard' for members to post collaboration ideas, briefs, commissions etc and interact with each other on the site
 - An option to choose the language of the site. We are relying on everyone to speak English but want to ensure nobody is alienated
 
 ## Technologies Used
+
 - HTML and CSS programming languages
 - [BootstrapCDN](https://www.bootstrapcdn.com/): [BootStrap4] (https://getbootstrap.com/docs/4.0/getting-started/introduction/) to assist with the structuring and responsiveness of the site
 - [Google Fonts](https://fonts.google.com/) for the fonts used throughout the page
@@ -193,7 +197,10 @@ On a screen tablet size and larger the map and contact information are side by s
 
 ## Testing
 
+Testing 
+
 ## Deployment
+
 This project was developed using the [Gitpod](https://www.gitpod.io/) IDE, commited to git and pushed to Github using its build in function. 
 
 The following steps were taken to deploy this page from its [Github](https://github.com/trisdauvergne/milestone-project-01) repository to Github pages:
@@ -209,6 +216,7 @@ The following steps were taken to deploy this page from its [Github](https://git
 At the moment of submitting this Milestone project the Development Branch and Master Branch are identical.
 
 ##To run this project locally
+
 Follow the below steps to clone this project from Github:
 
 1. Go to the project repository [here](https://github.com/trisdauvergne/milestone-project-01)
