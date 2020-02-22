@@ -1,6 +1,6 @@
 ![The Studes logo](readme-assets/readme-images/LOGO.jpg "The Studes logo")
 
-# ->Milestone Project 1 - A website for The Studes<-
+# Milestone Project 1 - A website for The Studes
 
 View the project on Github pages [here](https://trisdauvergne.github.io/milestone-project-01/)
 
