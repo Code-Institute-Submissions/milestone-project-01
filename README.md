@@ -48,7 +48,7 @@ For existing members, the website will host a page where members can book facili
 
 #WIREFRAMES
 ## Homepage - 
-- ![Homepage - Desktop Version](assets/wireframes/Desktop–HomePage.jpg "Desktop Homepage Wireframe")
+- [![Homepage - Desktop Version](readme-assets/wireframes/Desktop–HomePage.jpg "Desktop Homepage Wireframe")
 
 2. Join page
 3. Application page
