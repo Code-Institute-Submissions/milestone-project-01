@@ -47,10 +47,31 @@ For existing members, the website will host a page where members can book facili
 - Every page clearly displays The Studes email address and there are clear contact details for anyone who needs to make contact. 
 
 #WIREFRAMES
-## Homepage - 
-[Homepage - Desktop Version](https://github.com/trisdauvergne/milestone-project-01/blob/master/readme-assets/wireframes/Desktop%E2%80%93HomePage.jpg)
+## Home Page - 
+- [Desktop](https://github.com/trisdauvergne/milestone-project-01/blob/master/readme-assets/wireframes/Desktop%E2%80%93HomePage.jpg)
+- [Tablet](https://github.com/trisdauvergne/milestone-project-01/blob/master/readme-assets/wireframes/Tablet%E2%80%93HomePage.jpg)
+- [Mobile](https://github.com/trisdauvergne/milestone-project-01/blob/master/readme-assets/wireframes/Mobile%E2%80%93HomePage.jpg)
+- Examples of dropdown menu in tablet and mobile can be seen [here](https://github.com/trisdauvergne/milestone-project-01/blob/master/readme-assets/wireframes/Tablet-Homepage(with-drop-down%20menu).jpg) and [here](https://github.com/trisdauvergne/milestone-project-01/blob/master/readme-assets/wireframes/Mobile%20-Homepage(with-drop-down%20menu).jpg)
 
-[BootstrapCDN](https://www.bootstrapcdn.com/)
+## Join Us Page -
+- [Desktop](https://github.com/trisdauvergne/milestone-project-01/blob/master/readme-assets/wireframes/Desktop-JoinUsPage.jpg)
+- [Tablet](https://github.com/trisdauvergne/milestone-project-01/blob/master/readme-assets/wireframes/Tablet-JoinUsPage.jpg)
+- [Mobile](https://github.com/trisdauvergne/milestone-project-01/blob/master/readme-assets/wireframes/Mobile-JoinUsPage.jpg)
+
+## Application Page -
+- [Desktop](https://github.com/trisdauvergne/milestone-project-01/blob/master/readme-assets/wireframes/Desktop-ApplicationPage.jpg)
+- [Tablet](https://github.com/trisdauvergne/milestone-project-01/blob/master/readme-assets/wireframes/Tablet-ApplicationPage.jpg)
+- [Mobile](https://github.com/trisdauvergne/milestone-project-01/blob/master/readme-assets/wireframes/Mobile-ApplicationPage.jpg)
+
+## Members Page - 
+- [Desktop](https://github.com/trisdauvergne/milestone-project-01/blob/master/readme-assets/wireframes/Desktop-MembersPage.jpg)
+- [Tablet](https://github.com/trisdauvergne/milestone-project-01/blob/master/readme-assets/wireframes/Tablet-MembersPage.jpg)
+- [Mobile](https://github.com/trisdauvergne/milestone-project-01/blob/master/readme-assets/wireframes/Mobile-MembersPage.jpg)
+
+## Contact Page -
+- [Desktop](https://github.com/trisdauvergne/milestone-project-01/blob/master/readme-assets/wireframes/Desktop-ContactPage.jpg)
+- [Tablet](https://github.com/trisdauvergne/milestone-project-01/blob/master/readme-assets/wireframes/Tablet-ContactPage.jpg)
+- [Mobile](https://github.com/trisdauvergne/milestone-project-01/blob/master/readme-assets/wireframes/Mobile-ContactPage.jpg)
 
 2. Join page
 3. Application page
@@ -136,7 +157,7 @@ The user must fill in the following:
 
 This page features essential contact information with a **Google map** on the left, with contact information on the right.
 
-The contact information box features a **live link** to open the email address in a new window, as well as an **Instagram link** to open The Studes Instagram stories when you click on the text.
+The contact information box features a **live link** to open the email address in a new window, a **call function** when the telephone number is clicked as well as an **Instagram link** to open The Studes Instagram stories when you click on the text.
 The text is larger than the rest of the copy and a different font to draw attention to it, but doesn't use a button design.
 The text overlays a creative themed image, which becomes a solid background in a mobile device to aid accessibility. 
 
@@ -156,6 +177,7 @@ On a screen tablet size and larger the map and contact information are side by s
 - Also on the members page is another **form** which allows users to share collaboration and commission ideas with a **submit button** 
 - There is a **Google map** on the contact page for the user to explore the area on the map
 - There is a live **email link** when you click on the email address in the contact information box. This opens a new window so the user can send an email to The Studes
+- The **call function** easily allows the user to call directly to The Studes when the number is clicked without typing the number in separately. 
 - There is also a live **Instagram link** when you click on Instagram in the contact information box. This will open Instagram stories in a new window so the user can keep up to date with The Studes activity
 
 ### Features To Implement
