@@ -46,37 +46,33 @@ For existing members, the website will host a page where members can book facili
 - It provides members with a way of communicating with other members.
 - Every page clearly displays The Studes email address and there are clear contact details for anyone who needs to make contact. 
 
-#WIREFRAMES
-## Home Page - 
+# WIREFRAMES
+
+1. Home Page - 
 - [Desktop](https://github.com/trisdauvergne/milestone-project-01/blob/master/readme-assets/wireframes/Desktop%E2%80%93HomePage.jpg)
 - [Tablet](https://github.com/trisdauvergne/milestone-project-01/blob/master/readme-assets/wireframes/Tablet%E2%80%93HomePage.jpg)
 - [Mobile](https://github.com/trisdauvergne/milestone-project-01/blob/master/readme-assets/wireframes/Mobile%E2%80%93HomePage.jpg)
 - Examples of dropdown menu in tablet and mobile can be seen [here](https://github.com/trisdauvergne/milestone-project-01/blob/master/readme-assets/wireframes/Tablet-Homepage(with-drop-down%20menu).jpg) and [here](https://github.com/trisdauvergne/milestone-project-01/blob/master/readme-assets/wireframes/Mobile%20-Homepage(with-drop-down%20menu).jpg)
 
-## Join Us Page -
+2. Join Us Page -
 - [Desktop](https://github.com/trisdauvergne/milestone-project-01/blob/master/readme-assets/wireframes/Desktop-JoinUsPage.jpg)
 - [Tablet](https://github.com/trisdauvergne/milestone-project-01/blob/master/readme-assets/wireframes/Tablet-JoinUsPage.jpg)
 - [Mobile](https://github.com/trisdauvergne/milestone-project-01/blob/master/readme-assets/wireframes/Mobile-JoinUsPage.jpg)
 
-## Application Page -
+3. Application Page -
 - [Desktop](https://github.com/trisdauvergne/milestone-project-01/blob/master/readme-assets/wireframes/Desktop-ApplicationPage.jpg)
 - [Tablet](https://github.com/trisdauvergne/milestone-project-01/blob/master/readme-assets/wireframes/Tablet-ApplicationPage.jpg)
 - [Mobile](https://github.com/trisdauvergne/milestone-project-01/blob/master/readme-assets/wireframes/Mobile-ApplicationPage.jpg)
 
-## Members Page - 
+4. Members Page - 
 - [Desktop](https://github.com/trisdauvergne/milestone-project-01/blob/master/readme-assets/wireframes/Desktop-MembersPage.jpg)
 - [Tablet](https://github.com/trisdauvergne/milestone-project-01/blob/master/readme-assets/wireframes/Tablet-MembersPage.jpg)
 - [Mobile](https://github.com/trisdauvergne/milestone-project-01/blob/master/readme-assets/wireframes/Mobile-MembersPage.jpg)
 
-## Contact Page -
+5. Contact Page -
 - [Desktop](https://github.com/trisdauvergne/milestone-project-01/blob/master/readme-assets/wireframes/Desktop-ContactPage.jpg)
 - [Tablet](https://github.com/trisdauvergne/milestone-project-01/blob/master/readme-assets/wireframes/Tablet-ContactPage.jpg)
 - [Mobile](https://github.com/trisdauvergne/milestone-project-01/blob/master/readme-assets/wireframes/Mobile-ContactPage.jpg)
-
-2. Join page
-3. Application page
-3. Members page
-4. Contact page
 
 ## Features
 Each page features a **navigation bar** and **footer**.
