@@ -1,6 +1,9 @@
-# Milestone Project 1 - A website for The Studes
+![The Studes logo](readme-assets/readme-images/LOGO.jpg "The Studes logo")
 
-# Link to website?
+# ->Milestone Project 1 - A website for The Studes<-
+
+View the project on Github pages [here](https://trisdauvergne.github.io/milestone-project-01/)
+
 ## An introduction to the project
 
 The Studes is a co-working space that will encourage **collaboration** and **communication** between professional artists, makers, crafts people, designers and digital creatives as well as enthusiasts who just need a space for their creative outlet.
