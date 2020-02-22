@@ -48,7 +48,9 @@ For existing members, the website will host a page where members can book facili
 
 #WIREFRAMES
 ## Homepage - 
-- [![Homepage - Desktop Version](readme-assets/wireframes/Desktop–HomePage.jpg "Desktop Homepage Wireframe")
+[Homepage - Desktop Version](https://github.com/trisdauvergne/milestone-project-01/blob/master/readme-assets/wireframes/Desktop%E2%80%93HomePage.jpg)
+
+[BootstrapCDN](https://www.bootstrapcdn.com/)
 
 2. Join page
 3. Application page
