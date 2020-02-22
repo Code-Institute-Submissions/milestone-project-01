@@ -354,6 +354,19 @@ strong {
     padding: 20px 50px;
 }
 
+.small-print {
+    font-family: "Maven Pro", sans-serif;
+    font-size: 12px;
+    color: black;
+    padding: 5vh 5vh;
+}
+
+.small-print-link {
+    color: black;
+    font-weight: bold;
+    font-size: 15px;
+}
+
 /* ---------------------------------------------Apply Page-------- */
 
 /* Hero Image on Application Page */

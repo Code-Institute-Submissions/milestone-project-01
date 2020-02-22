@@ -33,7 +33,7 @@ For existing members, the website will host a page where members can book facili
 ### User Stories
 1. John, “I'm a sculptor and need to create some pieces next week. The Studes has a dirty area that's perfect for artists with all the equipment. I need to check if I can use it on a certain day next week.” 
 2. Sabrina, “I’m a student at the craft school and live in a small shared flat so aren’t able to do much work at home. I’d love a studio of my own but that would be quite expensive and I don’t want to spend that much just for a few evenings a week. I’ve heard about The Studes so want to see if membership is affordable and if it's not too much, I want to join!”
-3. Tony, “I’ve heard about The Studes and just want to check it out. I used to screen print when I was younger and am considering taking it up again but don’t have any materials. I want to see how much it costs to be a member, and maybe reach out to someone to teach me?”
+3. Tony, “I’ve heard about The Studes and just want to check it out. I used to screen print when I was younger and am considering taking it up again but don’t have the facilities. I want to see how much it costs to be a member as I'm considering picking it up again??”
 4. Isabelle, “I’m a womenswear designer that uses The Studes for their big tables, sewing machines and to generally make a mess! I’m working for a client who wants bespoke prints designed but I can’t do it myself. I need to see if there is anyone at The Studes who does print and would be interested in working with me on this collection”
 5. Alex, “Someone left their ‘The Studes’ bag with some materials in it at my coffee shop. I just need a phone number so they can pick it up”
 
@@ -185,6 +185,7 @@ On a screen tablet size and larger the map and contact information are side by s
 - A booking system which that would enable existing members to see the availability of facilities and book without assistance
 - A 'noticeboard' for members to post collaboration ideas, briefs, commissions etc and interact with each other on the site
 - An option to choose the language of the site. We are relying on everyone to speak English but want to ensure nobody is alienated
+- Sub-sections on the drop-down menu to take users directly to the 'book a facility' or 'collaborate/commission' forms on the members page
 
 ## Technologies Used
 
@@ -197,7 +198,7 @@ On a screen tablet size and larger the map and contact information are side by s
 
 ## Testing
 
-Testing 
+Testing information can be found in the separate testing file which can be accessed [here](TESTING.md)
 
 ## Deployment
 
