@@ -1,5 +1,10 @@
 # Testing 'The Studes' website
 
+## Testing
+- HTML validated using [W3C Validator](https://validator.w3.org/) _NOTE: The iFrame is showing an error, but CI tutor support has confirmed this is a W3C issue with Google maps._
+- CSS validated using [W3C CSS Validator](https://jigsaw.w3.org/css-validator/) 
+
+
 ## Testing client stories from the UX section of README.md
 
 1. _"I'm a sculptor and need to create some pieces next week.
@@ -40,7 +45,7 @@ I’m working for a client who wants bespoke prints designed but I can’t do it
 **I just need a phone number** so they can pick it up."_
 - The user needs to take two steps to get a phone number: _- Home > Contact_
 - On the Contact page, the user can see the phone number
-- The number can be pressed and automatically dialled from the users phone if they are viewing on mobile
+- The number can be pressed and automatically dialled from the user's phone if they are viewing on mobile
 
 ## Manual (logical) testing of all elements and functionality on every page.
 
@@ -115,7 +120,7 @@ I’m working for a client who wants bespoke prints designed but I can’t do it
 3. Header panel:
 - Repeat checks as above
 
-4. MeMbership type selection:
+4. Membership type selection:
 - Select a membership type
 - Check text doesn't distort in smaller screen sizes
 - Click the 'Back to memberships' button to go back to the join us page
