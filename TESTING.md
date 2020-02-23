@@ -14,23 +14,28 @@ The Studes has a dirty area that's perfect for artists with all the equipment.
 - The user takes three steps to achieve their goal: _Home > Members > Enquiry form_ 
 - The user can either go to the Members page through the navigation bar, or the button within the homepage content
 - The user is then able to fill in the form to match their requirements
+- [User journey screenshots here](https://github.com/trisdauvergne/milestone-project-01/blob/master/readme-assets/user-story-screenshots/user-story-1.jpg)
 
 2. _"I’m a student at the craft school and live in a small shared flat so aren’t able to do much work at home.
 I’d love a studio of my own but that would be quite expensive and I don’t want to spend that much just for a few evenings a week. 
 **I’ve heard about The Studes so want to see if membership is affordable and if it's not too much, I want to join!**"_
 - This user is not currently a member of The Studes so may be unfamiliar with the site
-- The user takes three steps to the application form: _Home > Join Us > Apply_
+- The user takes three steps to the application form: _Home > Join Us > Application Form_
 - The user will be able to access the membership packages on the 'Join Us' page through two routes; through the navigation bar or the button positioned after the first paragraph
 - The user can review the different membership packages on the 'Join Us' page and easily make their way to the application page by clicking 1 of the 3 buttons on this page
 - The application form can only be reached through the 'Join Us' page to ensure they review the membership types
 - The application form requests only essential information (name, email, link to portfolio) with options for the specialist area
+- [User journey screenshots here](https://github.com/trisdauvergne/milestone-project-01/blob/master/readme-assets/user-story-screenshots/user-story-2.jpg)
+
 
 3. _“I’ve heard about The Studes and just want to check it out.
 I used to screen print when I was younger and am considering taking it up again but don’t have the facilities.
 **I want to see how much it costs to be a member as I'm considering picking it up again?**”_
 - The user is not currently a member of The Studes and wants to review membership packages
-- For this mission, the user takes two steps to the join us section to review membership packages
+- For this mission, the user takes two steps to the join us section to review membership packages: _Home > Join Us_
 - The join us page is easily reached either through the navigation bar or the button underneath the first paragraph of text on the home page
+- [User journey screenshots here](https://github.com/trisdauvergne/milestone-project-01/blob/master/readme-assets/user-story-screenshots/user-story-3.jpg)
+
 
 4. _“I’m a womenswear designer that uses The Studes for their big tables, sewing machines and to generally make a mess!
 I’m working for a client who wants bespoke prints designed but I can’t do it myself.
@@ -40,12 +45,14 @@ I’m working for a client who wants bespoke prints designed but I can’t do it
 - The Members page can be reached through the navigation bar or the button underneath the second paragraph on the homepage
 - On the Members page, the user scrolls down to the 2nd form where they can fill in a brief for their commission
 - When the user submits their brief a modal pops up confirming their brief has been received and outlining next steps
+- [User journey screenshots here](https://github.com/trisdauvergne/milestone-project-01/blob/master/readme-assets/user-story-screenshots/user-story-4.jpg)
 
 5. _"Someone left their ‘The Studes’ bag with some materials in it at my coffee shop.
 **I just need a phone number** so they can pick it up."_
 - The user needs to take two steps to get a phone number: _- Home > Contact_
 - On the Contact page, the user can see the phone number
 - The number can be pressed and automatically dialled from the user's phone if they are viewing on mobile
+- [User journey screenshots here](https://github.com/trisdauvergne/milestone-project-01/blob/master/readme-assets/user-story-screenshots/user-story-5.jpg)
 
 ## Manual (logical) testing of all elements and functionality on every page.
 
