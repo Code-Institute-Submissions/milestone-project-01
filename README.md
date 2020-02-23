@@ -1,6 +1,6 @@
 ![The Studes logo](readme-assets/readme-images/LOGO.jpg "The Studes logo")
 
-# Milestone Project 1 - A website for The Studes
+# A website for 'The Studes'
 
 View the project on Github pages [here](https://trisdauvergne.github.io/milestone-project-01/)
 
@@ -52,30 +52,30 @@ For existing members, the website will host a page where members can book facili
 # WIREFRAMES
 
 1. Home Page - 
-- [Desktop](https://github.com/trisdauvergne/milestone-project-01/blob/master/readme-assets/wireframes/Desktop%E2%80%93HomePage.jpg)
-- [Tablet](https://github.com/trisdauvergne/milestone-project-01/blob/master/readme-assets/wireframes/Tablet%E2%80%93HomePage.jpg)
-- [Mobile](https://github.com/trisdauvergne/milestone-project-01/blob/master/readme-assets/wireframes/Mobile%E2%80%93HomePage.jpg)
-- Examples of dropdown menu in tablet and mobile can be seen [here](https://github.com/trisdauvergne/milestone-project-01/blob/master/readme-assets/wireframes/Tablet-Homepage(with-drop-down%20menu).jpg) and [here](https://github.com/trisdauvergne/milestone-project-01/blob/master/readme-assets/wireframes/Mobile%20-Homepage(with-drop-down%20menu).jpg)
+- [Desktop](https://github.com/trisdauvergne/milestone-project-01/blob/master/readme-assets/wireframes/desktop_home-page.jpg)
+- [Tablet](https://github.com/trisdauvergne/milestone-project-01/blob/master/readme-assets/wireframes/tablet_home-page.jpg)
+- [Mobile](https://github.com/trisdauvergne/milestone-project-01/blob/master/readme-assets/wireframes/mobile_home-page.jpg)
+- Examples of dropdown menu in tablet and mobile can be seen [here](https://github.com/trisdauvergne/milestone-project-01/blob/master/readme-assets/wireframes/tablet_home-page(with-drop-down-menu).jpg) and [here](https://github.com/trisdauvergne/milestone-project-01/blob/master/readme-assets/wireframes/mobile_home-page(with-drop-down-menu).jpg)
 
 2. Join Us Page -
-- [Desktop](https://github.com/trisdauvergne/milestone-project-01/blob/master/readme-assets/wireframes/Desktop-JoinUsPage.jpg)
-- [Tablet](https://github.com/trisdauvergne/milestone-project-01/blob/master/readme-assets/wireframes/Tablet-JoinUsPage.jpg)
-- [Mobile](https://github.com/trisdauvergne/milestone-project-01/blob/master/readme-assets/wireframes/Mobile-JoinUsPage.jpg)
+- [Desktop](https://github.com/trisdauvergne/milestone-project-01/blob/master/readme-assets/wireframes/desktop_join-us-page.jpg)
+- [Tablet](https://github.com/trisdauvergne/milestone-project-01/blob/master/readme-assets/wireframes/tablet_join-us-page.jpg)
+- [Mobile](https://github.com/trisdauvergne/milestone-project-01/blob/master/readme-assets/wireframes/mobile_join-us-page.jpg)
 
-3. Application Page -
-- [Desktop](https://github.com/trisdauvergne/milestone-project-01/blob/master/readme-assets/wireframes/Desktop-ApplicationPage.jpg)
-- [Tablet](https://github.com/trisdauvergne/milestone-project-01/blob/master/readme-assets/wireframes/Tablet-ApplicationPage.jpg)
-- [Mobile](https://github.com/trisdauvergne/milestone-project-01/blob/master/readme-assets/wireframes/Mobile-ApplicationPage.jpg)
+3. Application Form Page -
+- [Desktop](https://github.com/trisdauvergne/milestone-project-01/blob/master/readme-assets/wireframes/desktop_application-page.jpg)
+- [Tablet](https://github.com/trisdauvergne/milestone-project-01/blob/master/readme-assets/wireframes/tablet_application-page.jpg)
+- [Mobile](https://github.com/trisdauvergne/milestone-project-01/blob/master/readme-assets/wireframes/mobile_application-page.jpg)
 
 4. Members Page - 
-- [Desktop](https://github.com/trisdauvergne/milestone-project-01/blob/master/readme-assets/wireframes/Desktop-MembersPage.jpg)
-- [Tablet](https://github.com/trisdauvergne/milestone-project-01/blob/master/readme-assets/wireframes/Tablet-MembersPage.jpg)
-- [Mobile](https://github.com/trisdauvergne/milestone-project-01/blob/master/readme-assets/wireframes/Mobile-MembersPage.jpg)
+- [Desktop](https://github.com/trisdauvergne/milestone-project-01/blob/master/readme-assets/wireframes/desktop_members-page.jpg)
+- [Tablet](https://github.com/trisdauvergne/milestone-project-01/blob/master/readme-assets/wireframes/tablet_members-page.jpg)
+- [Mobile](https://github.com/trisdauvergne/milestone-project-01/blob/master/readme-assets/wireframes/mobile_members-page.jpg)
 
 5. Contact Page -
-- [Desktop](https://github.com/trisdauvergne/milestone-project-01/blob/master/readme-assets/wireframes/Desktop-ContactPage.jpg)
-- [Tablet](https://github.com/trisdauvergne/milestone-project-01/blob/master/readme-assets/wireframes/Tablet-ContactPage.jpg)
-- [Mobile](https://github.com/trisdauvergne/milestone-project-01/blob/master/readme-assets/wireframes/Mobile-ContactPage.jpg)
+- [Desktop](https://github.com/trisdauvergne/milestone-project-01/blob/master/readme-assets/wireframes/desktop_contact-page.jpg)
+- [Tablet](https://github.com/trisdauvergne/milestone-project-01/blob/master/readme-assets/wireframes/tablet_contact-page.jpg)
+- [Mobile](https://github.com/trisdauvergne/milestone-project-01/blob/master/readme-assets/wireframes/mobile_contact-page.jpg)
 
 ## Features
 
