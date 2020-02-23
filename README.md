@@ -39,7 +39,7 @@ For existing members, the website will host a page where members can book facili
 3. Tony, “I’ve heard about The Studes and just want to check it out. I used to screen print when I was younger and am considering taking it up again but don’t have the facilities. I want to see how much it costs to be a member as I'm considering picking it up again??”
 4. Isabelle, “I’m a womenswear designer that uses The Studes for their big tables, sewing machines and to generally make a mess! I’m working for a client who wants bespoke prints designed but I can’t do it myself. I need to see if there is anyone at The Studes who does print and would be interested in working with me on this collection”
 5. Alex, “Someone left their ‘The Studes’ bag with some materials in it at my coffee shop. I just need a phone number so they can pick it up”
-
+ 
 ### The Studes website is the best way for users to achieve their goals because:
 - The site is easy to navigate and helps users fulfill their goals through clear, concise information.
 - Fonts are clear and readable, to aid accessibility through high contrast. 
@@ -86,6 +86,8 @@ The header and footer contain only essential information, presented with clean f
 
 Each page also features a header panel that contains a hero background image related to The Studes business.
 The header panels on every page also contain a bold heading and sub-heading copy that introduces that page, apart from the home page which has an abstract definition of The Studes to create intrigue. 
+
+'Breathing space' white bars are included on every page to make it easier for the user to digest the information and clearly differentiate between sections.
 
 ### Home Page
 The home page features a header panel with a striking background image of a warehouse studio space and a definition of 'studes' in bold white text.
