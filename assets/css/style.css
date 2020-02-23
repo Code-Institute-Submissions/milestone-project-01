@@ -347,7 +347,7 @@ strong {
 
 /* Text boxes next to forms */
 .buffer-booking, .buffer-directory {
-    padding: 6vw 0 0 6vw;
+    padding: 3vw 0 0 6vw;
 }
 
 .members-booking, .members-directory {
