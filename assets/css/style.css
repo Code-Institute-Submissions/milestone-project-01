@@ -27,12 +27,12 @@
     letter-spacing: 1px;
 }
 
-/* Bold highlighted location in nav bar */
+/* Highlighted locations in nav bar to remind users which page they're on */
 .navbar-light .navbar-nav .active>.nav-link {
     font-weight: bold;
 }
 
-/* Spacing between buttons in nav bar */
+/* Increased spacing between buttons in nav bar to aid readability */
 .navbar-light .navbar-nav .nav-link {
     padding-right: 30px;
 }
@@ -68,7 +68,7 @@
 
 /* ---------------------------------------------Features for all pages-------- */
 
-/* Space in banner under nav bar */
+/* Increased space under nav bar to make pictures more visible */
 .header-padding {
     padding-top: 15vh;
 }
@@ -78,13 +78,13 @@
     margin: 0 0 5% 10%;
 }
 
-/* Widths to avoid stretching to edge of screen */
+/* Widths to avoid screen stretching to edge of laptop screen so easier to read */
 .max-width {
     max-width: 80%;
     margin: 0 10%;
 }
 
-/* Dividing Bar */
+/* Dividing Bar to aid readability */
 .breathing-space {
     height: 6vh;
     margin: 0 0 0 0;
@@ -92,7 +92,7 @@
     background-color: white;   
 }
 
-/* Dividing Bar between testimonials (only visible in small screen) */
+/* Dividing Bar between testimonials to aid readability (only visible in small screen) */
 .disappearing-breathing-space {
     display: none;
     background-color: white;
@@ -441,7 +441,6 @@ strong {
     font-family: "Maven Pro", sans-serif;
     font-size: 4vh;
     font-weight: 700;
-    
 }
 
 .contact-intro {
@@ -456,6 +455,7 @@ strong {
     font-family: "Allerta Stencil", sans-serif;
     font-size: 27px;
 }
+
 /* --------------------------------------------------------------Media Queries-------- */
 
 /* ---------------------------------------------General-------- */
@@ -468,7 +468,7 @@ strong {
     }
 }
 
-/* Navbar Logo & Menu Items Size Change with smaller screen */
+/* Navbar Logo & Menu Items Size respond with smaller screen */
 @media only screen and (max-width: 991px) {
     .logo {
         font-size: 6vh;
@@ -478,7 +478,7 @@ strong {
     }
 }
 
-/* Text in hero banners */
+/* Text in hero banners responding to the screen sizes */
 @media only screen and (max-width: 768px) {
     .header-text h1.header {
         font-size: 9vh;
@@ -516,7 +516,7 @@ strong {
     }
 }
 
-/* Paragraph with benefits copy on join page */
+/* Responsive padding in paragraph with benefits copy on join page to aid accessibility */
 @media only screen and (max-width: 991px) {
     .join-body-para {
         padding: 0 5vw 0 5vw;
@@ -544,7 +544,7 @@ strong {
     }       
 }
 
-/* Padding above email line */
+/* Padding above email line to avoid squashing */
 @media only screen and (max-width: 425px) {
     .application-form label {
         padding-top: 2vh;
@@ -552,7 +552,7 @@ strong {
     }
 }
 
-/* Removing padding around text next to radio check buttons */
+/* Removing padding around text next to radio check buttons to keep things in line */
 @media only screen and (max-width: 425px) {
     .tier-selector label {
         padding: 0 0 0 0;
@@ -674,7 +674,7 @@ strong {
     }
 }
 
-/* Map adjustment */
+/* Map adjusting to a smaller screen */
 @media only screen and (max-width: 768px) {
     .contact-map {
         height: 45vh;

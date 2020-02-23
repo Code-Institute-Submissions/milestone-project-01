@@ -1,3 +1,5 @@
+![The Studes logo](readme-assets/readme-images/LOGO.jpg "The Studes logo")
+
 # Testing 'The Studes' website
 
 ## Testing
@@ -59,6 +61,7 @@ I’m working for a client who wants bespoke prints designed but I can’t do it
 ### Home page
 1. Navigation bar:
 - Click the logo to go back to the home page when clicked on
+- Click the four destinations in the navigation bar to ensure they go to the correct pages
 - Reduce screen size to check the logo changes size on smaller screens
 - Reduce screen size to see the navigation menu items condense into a 'hamburger' drop down menu
 - Check that the 'home' menu item in the navigation is bold while on the home page
